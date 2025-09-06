@@ -1,3 +1,5 @@
-# ROS2 with Python
+# ROS 2 with Python
 
-Giới thiệu chung
+1. Publisher and Subscirber with Python Programming.
+
+2. 
