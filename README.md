@@ -212,5 +212,29 @@ Sau đó ta sẽ khai báo tiếp trong file `packages.xml` như sau ở dòng 1
 
 <member_of_group>rosidl_interface_packages</member_of_group>
 ```
-
-Như vậy bạn đã xong phần giới thiệu cơ bản, hay quay lại nhánh Python để tiếp tục tìm hiểu thêm tại đây: [Link]([GitHub - TruongNguyenDinh/Ros2 at Python](https://github.com/TruongNguyenDinh/Ros2/tree/Python))
+Cuối cùng, để có thể sử dụng được các msg chúng ta vừa tạo, ta cần build nó.
+Lưu ý: cần quay lại thư mục `workspace` rồi build:
+```bash
+colcon build
+```
+Khi build xong phải `source` nó để ros2 có thể cập nhật dữ liệu mới
+```bash
+source install/setup.bash
+```
+- Kiểm tra xem các `msg` đã được cập nhật chưa:
+```bash
+ros2 interface show intnums/msg/IntNumData
+ros2 interface show intnums/msg/NameIntNumData
+```
+Nếu có trả về là
+```bash
+ros2 interface show intnums/msg/NameIntNumData
+int64 num_a
+int64 num_b
+string name
+IntNumData int_num_data
+        int64 num_a
+        int64 num_b
+```
+-> Bạn đã thành công trong việc tạo ra `msg`.
+Như vậy bạn đã xong phần giới thiệu cơ bản, hay quay lại nhánh Python để tiếp tục tìm hiểu thêm. Hoặc có thể click tại đây: [Link]([GitHub - TruongNguyenDinh/Ros2 at Python](https://github.com/TruongNguyenDinh/Ros2/tree/Python))
