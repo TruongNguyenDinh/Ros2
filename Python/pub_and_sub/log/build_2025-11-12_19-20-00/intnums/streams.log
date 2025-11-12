@@ -1,0 +1,249 @@
+[0.011s] Invoking command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums -- -j8 -l8
+[0.028s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.696s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.696s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.697s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.703s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.710s] -- Added test 'lint_cmake' to check CMake code style
+[0.710s] -- Added test 'xmllint' to check XML markup files
+[0.711s] -- Configuring done
+[0.734s] -- Generating done
+[0.742s] -- Build files have been written to: /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums
+[0.762s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.772s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.779s] [  5%] Built target ament_cmake_python_copy_intnums
+[0.988s] running egg_info
+[0.989s] writing intnums.egg-info/PKG-INFO
+[0.990s] writing dependency_links to intnums.egg-info/dependency_links.txt
+[0.990s] writing top-level names to intnums.egg-info/top_level.txt
+[0.992s] reading manifest file 'intnums.egg-info/SOURCES.txt'
+[0.993s] writing manifest file 'intnums.egg-info/SOURCES.txt'
+[1.028s] [ 10%] [32mBuilding C object CMakeFiles/intnums__rosidl_generator_c.dir/rosidl_generator_c/intnums/msg/detail/name_int_num_data__functions.c.o[0m
+[1.028s] [ 10%] [32mBuilding C object CMakeFiles/intnums__rosidl_generator_c.dir/rosidl_generator_c/intnums/msg/detail/int_num_data__functions.c.o[0m
+[1.029s] [ 10%] Built target ament_cmake_python_build_intnums_egg
+[1.029s] [ 10%] Built target intnums__cpp
+[1.037s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.039s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.039s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.074s] [ 20%] [32m[1mLinking C shared library libintnums__rosidl_generator_c.so[0m
+[1.163s] [ 20%] Built target intnums__rosidl_generator_c
+[1.172s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.172s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.172s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.288s] [ 33%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intnums/msg/int_num_data__type_support.cpp.o[0m
+[1.288s] [ 33%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intnums/msg/name_int_num_data__type_support.cpp.o[0m
+[1.298s] [ 38%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intnums/msg/detail/int_num_data__type_support.cpp.o[0m
+[1.298s] [ 38%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intnums/msg/detail/name_int_num_data__type_support.cpp.o[0m
+[1.371s] [ 41%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intnums/msg/detail/dds_fastrtps/int_num_data__type_support.cpp.o[0m
+[1.522s] [ 43%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_c.dir/rosidl_typesupport_c/intnums/msg/int_num_data__type_support.cpp.o[0m
+[1.542s] [ 46%] [32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intnums/msg/detail/int_num_data__type_support.c.o[0m
+[1.569s] [ 48%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intnums/msg/detail/int_num_data__type_support_c.cpp.o[0m
+[1.585s] [ 51%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_c.dir/rosidl_typesupport_c/intnums/msg/name_int_num_data__type_support.cpp.o[0m
+[1.593s] [ 53%] [32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intnums/msg/detail/name_int_num_data__type_support.c.o[0m
+[1.621s] [ 56%] [32m[1mLinking CXX shared library libintnums__rosidl_typesupport_c.so[0m
+[1.630s] [ 58%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intnums/msg/detail/dds_fastrtps/name_int_num_data__type_support.cpp.o[0m
+[1.632s] [ 61%] [32m[1mLinking C shared library libintnums__rosidl_typesupport_introspection_c.so[0m
+[1.650s] [ 64%] [32m[1mLinking CXX shared library libintnums__rosidl_typesupport_cpp.so[0m
+[1.733s] [ 64%] Built target intnums__rosidl_typesupport_c
+[1.743s] [ 66%] [32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intnums/msg/detail/name_int_num_data__type_support_c.cpp.o[0m
+[1.751s] [ 66%] Built target intnums__rosidl_typesupport_introspection_c
+[1.759s] [ 66%] Built target intnums__rosidl_typesupport_cpp
+[1.783s] [ 69%] [32m[1mLinking CXX shared library libintnums__rosidl_typesupport_introspection_cpp.so[0m
+[1.909s] [ 69%] Built target intnums__rosidl_typesupport_introspection_cpp
+[2.022s] [ 71%] [32m[1mLinking CXX shared library libintnums__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.040s] [ 74%] [32m[1mLinking CXX shared library libintnums__rosidl_typesupport_fastrtps_c.so[0m
+[2.116s] [ 74%] Built target intnums__rosidl_typesupport_fastrtps_cpp
+[2.130s] [ 74%] Built target intnums__rosidl_typesupport_fastrtps_c
+[2.144s] [ 74%] Built target intnums
+[2.158s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.423s] [ 76%] Built target intnums__py
+[2.442s] [ 82%] [32mBuilding C object CMakeFiles/intnums__rosidl_generator_py.dir/rosidl_generator_py/intnums/msg/_int_num_data_s.c.o[0m
+[2.442s] [ 82%] [32mBuilding C object CMakeFiles/intnums__rosidl_generator_py.dir/rosidl_generator_py/intnums/msg/_name_int_num_data_s.c.o[0m
+[2.563s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/intnums/libintnums__rosidl_generator_py.so[0m
+[2.633s] [ 84%] Built target intnums__rosidl_generator_py
+[2.650s] [ 87%] [32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.651s] [ 92%] [32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_c.c.o[0m
+[2.651s] [ 92%] [32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.742s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.744s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.747s] [100%] [32m[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.799s] [100%] Built target intnums__rosidl_typesupport_c__pyext
+[2.802s] [100%] Built target intnums__rosidl_typesupport_introspection_c__pyext
+[2.802s] [100%] Built target intnums__rosidl_typesupport_fastrtps_c__pyext
+[2.812s] Invoked command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums -- -j8 -l8
+[2.820s] Invoking command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums
+[2.825s] -- Install configuration: ""
+[2.826s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/rosidl_interfaces/intnums
+[2.826s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.826s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.826s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_num_data.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_data.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/name_int_num_data.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_generator_c__visibility_control.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__functions.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__functions.h
+[2.827s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__functions.c
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__functions.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__functions.c
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__functions.c
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__struct.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__struct.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__struct.h
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/library_path.sh
+[2.828s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/library_path.dsv
+[2.829s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_c.so
+[2.829s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_c.so" to ""
+[2.829s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.829s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.829s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.830s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.830s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_fastrtps_c.h
+[2.830s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_fastrtps_c.h
+[2.830s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_c.so
+[2.830s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_c.so" to ""
+[2.830s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.830s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.830s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.830s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.830s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.c
+[2.831s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_introspection_c.h
+[2.831s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_introspection_c.h
+[2.831s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.c
+[2.831s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_c.so
+[2.831s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_c.so" to ""
+[2.831s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_c.so
+[2.831s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_c.so" to ""
+[2.831s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.831s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/name_int_num_data.hpp
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_num_data.hpp
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_data.hpp
+[2.832s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__traits.hpp
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__builder.hpp
+[2.832s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__struct.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__struct.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__builder.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__builder.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__traits.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__struct.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.hpp
+[2.833s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__traits.hpp
+[2.834s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.834s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.834s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/dds_fastrtps
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.834s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_cpp.so
+[2.834s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.834s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums
+[2.835s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg
+[2.835s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.cpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__rosidl_typesupport_introspection_cpp.hpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_introspection_cpp.hpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_introspection_cpp.hpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.cpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.cpp
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_cpp.so
+[2.835s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_cpp.so" to ""
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_cpp.so
+[2.835s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_cpp.so" to ""
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/pythonpath.sh
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/pythonpath.dsv
+[2.835s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/top_level.txt
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/PKG-INFO
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_introspection_c.c
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.836s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data.py
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data_s.c
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data.py
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/__init__.py
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data_s.c
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/libintnums__rosidl_generator_py.so
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.837s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/__init__.py
+[2.838s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_c.c
+[2.865s] Listing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums'...
+[2.865s] Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/__init__.py'...
+[2.865s] Listing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg'...
+[2.865s] Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/__init__.py'...
+[2.865s] Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data.py'...
+[2.865s] Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data.py'...
+[2.870s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.870s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.871s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.871s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.871s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.871s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.871s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_py.so
+[2.871s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_py.so" to ""
+[2.871s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/IntNumData.idl
+[2.872s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/NameIntNumData.idl
+[2.872s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/IntNumData.msg
+[2.872s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/NameIntNumData.msg
+[2.872s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/package_run_dependencies/intnums
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/parent_prefix_path/intnums
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/ament_prefix_path.sh
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/ament_prefix_path.dsv
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/path.sh
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/path.dsv
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.bash
+[2.873s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.sh
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.zsh
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.dsv
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/package.dsv
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/packages/intnums
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cExport.cmake
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cExport-noconfig.cmake
+[2.874s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cExport.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cExport.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cExport.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cExport-noconfig.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cppExport.cmake
+[2.875s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cppExport.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cppExport.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cppExport-noconfig.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_pyExport.cmake
+[2.876s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_pyExport-noconfig.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_libraries-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_targets-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnumsConfig.cmake
+[2.877s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnumsConfig-version.cmake
+[2.878s] -- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/package.xml
+[2.880s] Invoked command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums

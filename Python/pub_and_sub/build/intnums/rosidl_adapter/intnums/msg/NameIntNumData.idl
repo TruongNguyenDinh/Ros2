@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from intnums/msg/NameIntNumData.msg
+// generated code does not contain a copyright notice
+
+#include "intnums/msg/IntNumData.idl"
+
+module intnums {
+  module msg {
+    struct NameIntNumData {
+      string name;
+
+      intnums::msg::IntNumData int_num_data;
+    };
+  };
+};

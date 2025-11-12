@@ -1,0 +1,4 @@
+[console_scripts]
+publish_nums = pubsub_node.publisher:main
+subcriber_nums = pubsub_node.subcriber:main
+

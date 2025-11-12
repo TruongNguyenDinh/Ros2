@@ -1,0 +1,2 @@
+Invoking command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums
+Invoked command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums

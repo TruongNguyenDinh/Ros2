@@ -1,0 +1,7 @@
+{
+  "package_name": "intnums",
+  "non_idl_tuples": [
+    "/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums:msg/IntNumData.msg",
+    "/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums:msg/NameIntNumData.msg"
+  ]
+}

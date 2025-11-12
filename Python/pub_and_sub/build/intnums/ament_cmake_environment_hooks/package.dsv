@@ -1,0 +1,4 @@
+source;share/intnums/local_setup.bash
+source;share/intnums/local_setup.dsv
+source;share/intnums/local_setup.sh
+source;share/intnums/local_setup.zsh

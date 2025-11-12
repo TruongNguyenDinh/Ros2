@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d1e43f034a89a0751d75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "intnums__py",
+					"jsonFile" : "directory-intnums__py-99beba54dbaa8726259d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums/intnums__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "intnums",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_intnums_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_intnums_egg-c275c69c3fd83945ee7e.json",
+					"name" : "ament_cmake_python_build_intnums_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_intnums::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_intnums-3a9ba2aee91a744e5ee7.json",
+					"name" : "ament_cmake_python_copy_intnums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums-0bd8ece41eed7b4c4a60.json",
+					"name" : "intnums",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__cpp-e5fcfbd708ce3a3f2838.json",
+					"name" : "intnums__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "intnums__py::@c59a420739b5e3b73ca7",
+					"jsonFile" : "target-intnums__py-e58d95eb9817f7bf7d49.json",
+					"name" : "intnums__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_generator_c-6c2efb82356abec60928.json",
+					"name" : "intnums__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_generator_py-958f521937b77e0023f6.json",
+					"name" : "intnums__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_c-5bd83c3233cbc1164ce2.json",
+					"name" : "intnums__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_c__pyext-b95da6ffba5b3865cd3c.json",
+					"name" : "intnums__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_cpp-1b69d0a86c0a0642173e.json",
+					"name" : "intnums__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_fastrtps_c-4a235850f060c7150820.json",
+					"name" : "intnums__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_fastrtps_c__pyext-bdcf743acd5a031e6638.json",
+					"name" : "intnums__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_fastrtps_cpp-c1659c285e2a85edbb50.json",
+					"name" : "intnums__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_introspection_c-c8c8b86d1cd0e96241ce.json",
+					"name" : "intnums__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_introspection_c__pyext-0c1718191ef100e2c45c.json",
+					"name" : "intnums__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums__rosidl_typesupport_introspection_cpp-d9ce586fe523dceccde1.json",
+					"name" : "intnums__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intnums_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intnums_uninstall-5532d1888ca631c68315.json",
+					"name" : "intnums_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0e9d503f835e8744816b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums",
+		"source" : "/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

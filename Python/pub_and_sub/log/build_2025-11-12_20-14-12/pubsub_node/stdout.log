@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/pubsub_node/pubsub_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/pubsub_node/pubsub_node.egg-info/dependency_links.txt
+writing entry points to ../../build/pubsub_node/pubsub_node.egg-info/entry_points.txt
+writing requirements to ../../build/pubsub_node/pubsub_node.egg-info/requires.txt
+writing top-level names to ../../build/pubsub_node/pubsub_node.egg-info/top_level.txt
+reading manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+running install
+running install_lib
+copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/publisher.py to publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pubsub_node/pubsub_node.egg-info to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publish_nums script to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/pubsub_node
+writing list of installed files to '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log'

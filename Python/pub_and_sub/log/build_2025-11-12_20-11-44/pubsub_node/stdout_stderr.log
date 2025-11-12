@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/pubsub_node/pubsub_node.egg-info
+writing ../../build/pubsub_node/pubsub_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/pubsub_node/pubsub_node.egg-info/dependency_links.txt
+writing entry points to ../../build/pubsub_node/pubsub_node.egg-info/entry_points.txt
+writing requirements to ../../build/pubsub_node/pubsub_node.egg-info/requires.txt
+writing top-level names to ../../build/pubsub_node/pubsub_node.egg-info/top_level.txt
+writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+copying pubsub_node/subcriber.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+copying pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+copying pubsub_node/__init__.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+running install
+running install_lib
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/subcriber.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/__init__.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/subcriber.py to subcriber.cpython-310.pyc
+byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index
+creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index/packages
+copying resource/pubsub_node -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index/packages
+copying package.xml -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/pubsub_node
+running install_egg_info
+Copying ../../build/pubsub_node/pubsub_node.egg-info to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publish_nums script to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/pubsub_node
+writing list of installed files to '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log'

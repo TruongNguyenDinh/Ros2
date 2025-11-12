@@ -1,0 +1,24 @@
+[0.521s] Invoking command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/pubsub_node': PYTHONPATH=/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_node build --build-base /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build install --record /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log --single-version-externally-managed install_data
+[0.692s] running egg_info
+[0.693s] writing ../../build/pubsub_node/pubsub_node.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/pubsub_node/pubsub_node.egg-info/dependency_links.txt
+[0.694s] writing entry points to ../../build/pubsub_node/pubsub_node.egg-info/entry_points.txt
+[0.694s] writing requirements to ../../build/pubsub_node/pubsub_node.egg-info/requires.txt
+[0.694s] writing top-level names to ../../build/pubsub_node/pubsub_node.egg-info/top_level.txt
+[0.696s] reading manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+[0.696s] writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+[0.696s] running build
+[0.696s] running build_py
+[0.697s] copying pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+[0.697s] running install
+[0.697s] running install_lib
+[0.698s] copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+[0.699s] byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/publisher.py to publisher.cpython-310.pyc
+[0.699s] running install_data
+[0.699s] running install_egg_info
+[0.701s] removing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.702s] Copying ../../build/pubsub_node/pubsub_node.egg-info to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info
+[0.703s] running install_scripts
+[0.718s] Installing publish_nums script to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/pubsub_node
+[0.719s] writing list of installed files to '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log'
+[0.739s] Invoked command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/pubsub_node' returned '0': PYTHONPATH=/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_node build --build-base /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build install --record /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log --single-version-externally-managed install_data

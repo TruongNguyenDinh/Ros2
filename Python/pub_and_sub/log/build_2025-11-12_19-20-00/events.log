@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (intnums) JobQueued: {'identifier': 'intnums', 'dependencies': OrderedDict()}
+[0.000402] (intnums) JobStarted: {'identifier': 'intnums'}
+[0.006462] (intnums) JobProgress: {'identifier': 'intnums', 'progress': 'cmake'}
+[0.007098] (intnums) JobProgress: {'identifier': 'intnums', 'progress': 'build'}
+[0.008078] (intnums) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums', '--', '-j8', '-l8'], 'cwd': '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ntruong1124'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ntruong1124'), ('OLDPWD', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ntruong1124'), ('NAME', 'Javis'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools'), ('WT_SESSION', '47d705e0-9307-4769-9594-319995134c91'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ntruong1124/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.027848] (intnums) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099476] (-) TimerEvent: {}
+[0.115749] (intnums) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.116701] (intnums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.118543] (intnums) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.193470] (intnums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199608] (-) TimerEvent: {}
+[0.299958] (-) TimerEvent: {}
+[0.379145] (intnums) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400085] (-) TimerEvent: {}
+[0.500385] (-) TimerEvent: {}
+[0.504316] (intnums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600491] (-) TimerEvent: {}
+[0.664579] (intnums) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.681347] (intnums) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.696500] (intnums) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.696757] (intnums) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.696884] (intnums) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.700631] (-) TimerEvent: {}
+[0.703265] (intnums) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.709974] (intnums) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.710434] (intnums) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.711764] (intnums) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.733858] (intnums) StdoutLine: {'line': b'-- Generating done\n'}
+[0.742392] (intnums) StdoutLine: {'line': b'-- Build files have been written to: /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums\n'}
+[0.762525] (intnums) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.771851] (intnums) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.778972] (intnums) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_intnums\n'}
+[0.800750] (-) TimerEvent: {}
+[0.901095] (-) TimerEvent: {}
+[0.988101] (intnums) StdoutLine: {'line': b'running egg_info\n'}
+[0.989175] (intnums) StdoutLine: {'line': b'writing intnums.egg-info/PKG-INFO\n'}
+[0.990122] (intnums) StdoutLine: {'line': b'writing dependency_links to intnums.egg-info/dependency_links.txt\n'}
+[0.990286] (intnums) StdoutLine: {'line': b'writing top-level names to intnums.egg-info/top_level.txt\n'}
+[0.992444] (intnums) StdoutLine: {'line': b"reading manifest file 'intnums.egg-info/SOURCES.txt'\n"}
+[0.992915] (intnums) StdoutLine: {'line': b"writing manifest file 'intnums.egg-info/SOURCES.txt'\n"}
+[1.001420] (-) TimerEvent: {}
+[1.027788] (intnums) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_generator_c.dir/rosidl_generator_c/intnums/msg/detail/name_int_num_data__functions.c.o\x1b[0m\n'}
+[1.028051] (intnums) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_generator_c.dir/rosidl_generator_c/intnums/msg/detail/int_num_data__functions.c.o\x1b[0m\n'}
+[1.028940] (intnums) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_intnums_egg\n'}
+[1.029168] (intnums) StdoutLine: {'line': b'[ 10%] Built target intnums__cpp\n'}
+[1.037627] (intnums) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.039075] (intnums) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.039365] (intnums) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.074422] (intnums) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libintnums__rosidl_generator_c.so\x1b[0m\n'}
+[1.101465] (-) TimerEvent: {}
+[1.163320] (intnums) StdoutLine: {'line': b'[ 20%] Built target intnums__rosidl_generator_c\n'}
+[1.172056] (intnums) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.172311] (intnums) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.172727] (intnums) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.201583] (-) TimerEvent: {}
+[1.288499] (intnums) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intnums/msg/int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.288720] (intnums) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/intnums/msg/name_int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.297882] (intnums) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intnums/msg/detail/int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.298228] (intnums) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/intnums/msg/detail/name_int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.304678] (-) TimerEvent: {}
+[1.371225] (intnums) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intnums/msg/detail/dds_fastrtps/int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.404772] (-) TimerEvent: {}
+[1.505077] (-) TimerEvent: {}
+[1.522428] (intnums) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_c.dir/rosidl_typesupport_c/intnums/msg/int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.541148] (intnums) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intnums/msg/detail/int_num_data__type_support.c.o\x1b[0m\n'}
+[1.569352] (intnums) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intnums/msg/detail/int_num_data__type_support_c.cpp.o\x1b[0m\n'}
+[1.584872] (intnums) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_c.dir/rosidl_typesupport_c/intnums/msg/name_int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.592860] (intnums) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/intnums/msg/detail/name_int_num_data__type_support.c.o\x1b[0m\n'}
+[1.605160] (-) TimerEvent: {}
+[1.621100] (intnums) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libintnums__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.629777] (intnums) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/intnums/msg/detail/dds_fastrtps/name_int_num_data__type_support.cpp.o\x1b[0m\n'}
+[1.632183] (intnums) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libintnums__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.649759] (intnums) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libintnums__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.705302] (-) TimerEvent: {}
+[1.732914] (intnums) StdoutLine: {'line': b'[ 64%] Built target intnums__rosidl_typesupport_c\n'}
+[1.743430] (intnums) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/intnums/msg/detail/name_int_num_data__type_support_c.cpp.o\x1b[0m\n'}
+[1.751588] (intnums) StdoutLine: {'line': b'[ 66%] Built target intnums__rosidl_typesupport_introspection_c\n'}
+[1.759377] (intnums) StdoutLine: {'line': b'[ 66%] Built target intnums__rosidl_typesupport_cpp\n'}
+[1.783534] (intnums) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libintnums__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.805377] (-) TimerEvent: {}
+[1.905795] (-) TimerEvent: {}
+[1.908750] (intnums) StdoutLine: {'line': b'[ 69%] Built target intnums__rosidl_typesupport_introspection_cpp\n'}
+[2.005913] (-) TimerEvent: {}
+[2.021896] (intnums) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libintnums__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.040670] (intnums) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libintnums__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.106114] (-) TimerEvent: {}
+[2.116291] (intnums) StdoutLine: {'line': b'[ 74%] Built target intnums__rosidl_typesupport_fastrtps_cpp\n'}
+[2.130083] (intnums) StdoutLine: {'line': b'[ 74%] Built target intnums__rosidl_typesupport_fastrtps_c\n'}
+[2.144282] (intnums) StdoutLine: {'line': b'[ 74%] Built target intnums\n'}
+[2.158747] (intnums) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.206257] (-) TimerEvent: {}
+[2.306495] (-) TimerEvent: {}
+[2.406798] (-) TimerEvent: {}
+[2.423401] (intnums) StdoutLine: {'line': b'[ 76%] Built target intnums__py\n'}
+[2.442321] (intnums) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_generator_py.dir/rosidl_generator_py/intnums/msg/_int_num_data_s.c.o\x1b[0m\n'}
+[2.442501] (intnums) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_generator_py.dir/rosidl_generator_py/intnums/msg/_name_int_num_data_s.c.o\x1b[0m\n'}
+[2.506910] (-) TimerEvent: {}
+[2.563573] (intnums) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/intnums/libintnums__rosidl_generator_py.so\x1b[0m\n'}
+[2.607002] (-) TimerEvent: {}
+[2.633538] (intnums) StdoutLine: {'line': b'[ 84%] Built target intnums__rosidl_generator_py\n'}
+[2.649906] (intnums) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.650859] (intnums) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.651052] (intnums) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/intnums__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/intnums/_intnums_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.707140] (-) TimerEvent: {}
+[2.741886] (intnums) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.744374] (intnums) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.747614] (intnums) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.798773] (intnums) StdoutLine: {'line': b'[100%] Built target intnums__rosidl_typesupport_c__pyext\n'}
+[2.802301] (intnums) StdoutLine: {'line': b'[100%] Built target intnums__rosidl_typesupport_introspection_c__pyext\n'}
+[2.802481] (intnums) StdoutLine: {'line': b'[100%] Built target intnums__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.807289] (-) TimerEvent: {}
+[2.812080] (intnums) CommandEnded: {'returncode': 0}
+[2.813296] (intnums) JobProgress: {'identifier': 'intnums', 'progress': 'install'}
+[2.819925] (intnums) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums'], 'cwd': '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ntruong1124'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ntruong1124'), ('OLDPWD', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/intnums'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ntruong1124'), ('NAME', 'Javis'), ('WSL_INTEROP', '/run/WSL/312_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools'), ('WT_SESSION', '47d705e0-9307-4769-9594-319995134c91'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ntruong1124/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/intnums'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.825444] (intnums) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.826013] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/rosidl_interfaces/intnums\n'}
+[2.826294] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.826573] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.826796] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_num_data.h\n'}
+[2.826918] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_data.h\n'}
+[2.826978] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/name_int_num_data.h\n'}
+[2.827222] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.827375] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.827562] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.h\n'}
+[2.827638] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__functions.h\n'}
+[2.827689] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__functions.h\n'}
+[2.827771] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__functions.c\n'}
+[2.827928] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.h\n'}
+[2.828080] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.h\n'}
+[2.828128] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__functions.h\n'}
+[2.828223] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__functions.c\n'}
+[2.828291] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__functions.c\n'}
+[2.828423] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__struct.h\n'}
+[2.828665] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__struct.h\n'}
+[2.828742] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__struct.h\n'}
+[2.828835] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/library_path.sh\n'}
+[2.828872] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/library_path.dsv\n'}
+[2.829074] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_c.so\n'}
+[2.829291] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_c.so" to ""\n'}
+[2.829481] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.829582] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.829725] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.829836] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.829940] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.830043] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.830242] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_c.so\n'}
+[2.830327] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.830399] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.830503] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.830606] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.830708] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.830810] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.c\n'}
+[2.830912] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_introspection_c.h\n'}
+[2.831136] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_introspection_c.h\n'}
+[2.831183] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.c\n'}
+[2.831286] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_c.so\n'}
+[2.831425] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.831515] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_c.so\n'}
+[2.831621] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_c.so" to ""\n'}
+[2.831762] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.831840] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.831878] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/name_int_num_data.hpp\n'}
+[2.832000] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_num_data.hpp\n'}
+[2.832139] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.832284] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/int_data.hpp\n'}
+[2.832392] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.832510] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__traits.hpp\n'}
+[2.832630] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__builder.hpp\n'}
+[2.832751] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__struct.hpp\n'}
+[2.832857] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__struct.hpp\n'}
+[2.833029] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.hpp\n'}
+[2.833239] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.hpp\n'}
+[2.833287] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__builder.hpp\n'}
+[2.833392] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__builder.hpp\n'}
+[2.833496] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__traits.hpp\n'}
+[2.833599] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__struct.hpp\n'}
+[2.833701] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.hpp\n'}
+[2.833862] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__traits.hpp\n'}
+[2.833903] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.834007] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.834144] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.834239] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.834343] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.834446] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/dds_fastrtps\n'}
+[2.834554] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.834702] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.834741] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.834775] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.834810] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums\n'}
+[2.834915] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg\n'}
+[2.835019] (intnums) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail\n'}
+[2.835123] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__type_support.cpp\n'}
+[2.835227] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.835342] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.835379] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/name_int_num_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.835414] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_data__type_support.cpp\n'}
+[2.835449] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/include/intnums/intnums/msg/detail/int_num_data__type_support.cpp\n'}
+[2.835482] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_cpp.so\n'}
+[2.835518] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.835551] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_cpp.so\n'}
+[2.835634] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_typesupport_cpp.so" to ""\n'}
+[2.835672] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/pythonpath.sh\n'}
+[2.835754] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/pythonpath.dsv\n'}
+[2.835836] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info\n'}
+[2.835925] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.836029] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.836214] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.836265] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.836347] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums\n'}
+[2.836384] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.836564] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.836696] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.836780] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.836878] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg\n'}
+[2.837018] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data.py\n'}
+[2.837126] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data_s.c\n'}
+[2.837215] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data.py\n'}
+[2.837297] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/__init__.py\n'}
+[2.837381] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data_s.c\n'}
+[2.837531] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/libintnums__rosidl_generator_py.so\n'}
+[2.837635] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.837747] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/__init__.py\n'}
+[2.837872] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/_intnums_s.ep.rosidl_typesupport_c.c\n'}
+[2.865215] (intnums) StdoutLine: {'line': b"Listing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums'...\n"}
+[2.865403] (intnums) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/__init__.py'...\n"}
+[2.865459] (intnums) StdoutLine: {'line': b"Listing '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg'...\n"}
+[2.865495] (intnums) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/__init__.py'...\n"}
+[2.865531] (intnums) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_int_num_data.py'...\n"}
+[2.865566] (intnums) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/msg/_name_int_num_data.py'...\n"}
+[2.870261] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.870619] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.870880] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.870931] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.870967] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.871107] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/local/lib/python3.10/dist-packages/intnums/intnums_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.871345] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_py.so\n'}
+[2.871518] (intnums) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/lib/libintnums__rosidl_generator_py.so" to ""\n'}
+[2.871777] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/IntNumData.idl\n'}
+[2.872017] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/NameIntNumData.idl\n'}
+[2.872233] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/IntNumData.msg\n'}
+[2.872291] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/msg/NameIntNumData.msg\n'}
+[2.872515] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/package_run_dependencies/intnums\n'}
+[2.872875] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/parent_prefix_path/intnums\n'}
+[2.873007] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/ament_prefix_path.sh\n'}
+[2.873259] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/ament_prefix_path.dsv\n'}
+[2.873386] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/path.sh\n'}
+[2.873445] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/environment/path.dsv\n'}
+[2.873634] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.bash\n'}
+[2.873763] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.sh\n'}
+[2.873878] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.zsh\n'}
+[2.874037] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/local_setup.dsv\n'}
+[2.874088] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/package.dsv\n'}
+[2.874293] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/ament_index/resource_index/packages/intnums\n'}
+[2.874585] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cExport.cmake\n'}
+[2.874718] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.874850] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.874967] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.875097] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.875289] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.875422] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cExport.cmake\n'}
+[2.875548] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.875681] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_cppExport.cmake\n'}
+[2.875817] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.875980] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.876102] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.876222] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.876355] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cppExport.cmake\n'}
+[2.876478] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnums__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.876648] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_pyExport.cmake\n'}
+[2.876775] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/export_intnums__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.876904] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake-extras.cmake\n'}
+[2.877023] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.877144] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.877270] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.877390] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.877510] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.877634] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.877745] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnumsConfig.cmake\n'}
+[2.877850] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/cmake/intnumsConfig-version.cmake\n'}
+[2.877971] (intnums) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/intnums/share/intnums/package.xml\n'}
+[2.879831] (intnums) CommandEnded: {'returncode': 0}
+[2.896993] (intnums) JobEnded: {'identifier': 'intnums', 'rc': 0}
+[2.897967] (-) EventReactorShutdown: {}

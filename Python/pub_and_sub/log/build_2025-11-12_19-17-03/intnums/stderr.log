@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:14 (rosild_generate_interface):
+  Unknown CMake command "rosild_generate_interface".
+
+[0m

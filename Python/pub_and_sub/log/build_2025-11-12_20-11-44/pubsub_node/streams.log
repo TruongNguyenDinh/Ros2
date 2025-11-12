@@ -1,0 +1,40 @@
+[0.771s] Invoking command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/pubsub_node': PYTHONPATH=/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_node build --build-base /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build install --record /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log --single-version-externally-managed install_data
+[0.931s] running egg_info
+[0.931s] creating ../../build/pubsub_node/pubsub_node.egg-info
+[0.932s] writing ../../build/pubsub_node/pubsub_node.egg-info/PKG-INFO
+[0.932s] writing dependency_links to ../../build/pubsub_node/pubsub_node.egg-info/dependency_links.txt
+[0.932s] writing entry points to ../../build/pubsub_node/pubsub_node.egg-info/entry_points.txt
+[0.932s] writing requirements to ../../build/pubsub_node/pubsub_node.egg-info/requires.txt
+[0.932s] writing top-level names to ../../build/pubsub_node/pubsub_node.egg-info/top_level.txt
+[0.932s] writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+[0.934s] reading manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+[0.934s] writing manifest file '../../build/pubsub_node/pubsub_node.egg-info/SOURCES.txt'
+[0.934s] running build
+[0.934s] running build_py
+[0.934s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build
+[0.935s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib
+[0.935s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+[0.935s] copying pubsub_node/subcriber.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+[0.935s] copying pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+[0.935s] copying pubsub_node/__init__.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node
+[0.936s] running install
+[0.936s] running install_lib
+[0.937s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+[0.937s] copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/subcriber.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+[0.937s] copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/publisher.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+[0.937s] copying /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build/lib/pubsub_node/__init__.py -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node
+[0.937s] byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/subcriber.py to subcriber.cpython-310.pyc
+[0.938s] byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/publisher.py to publisher.cpython-310.pyc
+[0.938s] byte-compiling /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node/__init__.py to __init__.cpython-310.pyc
+[0.938s] running install_data
+[0.938s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index
+[0.939s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index
+[0.939s] creating /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index/packages
+[0.939s] copying resource/pubsub_node -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/ament_index/resource_index/packages
+[0.939s] copying package.xml -> /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/share/pubsub_node
+[0.939s] running install_egg_info
+[0.941s] Copying ../../build/pubsub_node/pubsub_node.egg-info to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages/pubsub_node-0.0.0-py3.10.egg-info
+[0.941s] running install_scripts
+[0.957s] Installing publish_nums script to /home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/pubsub_node
+[0.958s] writing list of installed files to '/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log'
+[0.978s] Invoked command in '/home/ntruong1124/ros2_ws/Python/pub_and_sub/src/pubsub_node' returned '0': PYTHONPATH=/home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ntruong1124/ros2_ws/Python/pub_and_sub/install/pubsub_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pubsub_node build --build-base /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/build install --record /home/ntruong1124/ros2_ws/Python/pub_and_sub/build/pubsub_node/install.log --single-version-externally-managed install_data
