@@ -1,0 +1,6 @@
+{
+  "package_name": "add_two_ints",
+  "non_idl_tuples": [
+    "/home/ntruong1124/ros2_ws/Python/service/src/add_two_ints:srv/SumTwoNums.srv"
+  ]
+}

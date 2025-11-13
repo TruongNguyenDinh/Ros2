@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-60c6dc72fca1218ed681.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "add_two_ints__py",
+					"jsonFile" : "directory-add_two_ints__py-e1d20f60e08d9ca310cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints/add_two_ints__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "add_two_ints",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints-edb0cfdecf01713ca97c.json",
+					"name" : "add_two_ints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__cpp-940fc7ba2394fbb2471d.json",
+					"name" : "add_two_ints__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "add_two_ints__py::@397c54bccc5bf8ccc40d",
+					"jsonFile" : "target-add_two_ints__py-50ba372f769be86fdb15.json",
+					"name" : "add_two_ints__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_generator_c-1690de2dd7a231c5c2d5.json",
+					"name" : "add_two_ints__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_generator_py-14a229c37b498a9e6e02.json",
+					"name" : "add_two_ints__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_c-099c50bd0f383d680e9e.json",
+					"name" : "add_two_ints__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_c__pyext-37df10c48a6ea4603ea9.json",
+					"name" : "add_two_ints__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_cpp-635e103896ea19e889d8.json",
+					"name" : "add_two_ints__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_c-532e5f97c73cb0e756c6.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_c__pyext-4227459db21eba4a23d7.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_cpp-65eb55a7b0224a145ab8.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_c-877ff099d92198fd69f0.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_c__pyext-344893c5643c20ef8ab9.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_cpp-2ad0ad6bcdf76b8b449b.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_uninstall-1335abd04852ac3b49a0.json",
+					"name" : "add_two_ints_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_add_two_ints_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_add_two_ints_egg-091cce5c2dff65dd1970.json",
+					"name" : "ament_cmake_python_build_add_two_ints_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_add_two_ints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_add_two_ints-01aebf5e3687a0350c42.json",
+					"name" : "ament_cmake_python_copy_add_two_ints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15118bdd37ed2827acce.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints",
+		"source" : "/home/ntruong1124/ros2_ws/Python/service/src/add_two_ints"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

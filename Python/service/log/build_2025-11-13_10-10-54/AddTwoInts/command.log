@@ -1,0 +1,2 @@
+Invoking command in '/home/ntruong1124/ros2_ws/Python/service/build/AddTwoInts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/service/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/service/install/AddTwoInts
+Invoked command in '/home/ntruong1124/ros2_ws/Python/service/build/AddTwoInts' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/service/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/service/install/AddTwoInts

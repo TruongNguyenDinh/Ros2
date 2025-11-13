@@ -1,0 +1,234 @@
+[0.018s] Invoking command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/service/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- The CXX compiler identification is GNU 11.4.0
+[0.692s] -- Detecting C compiler ABI info
+[0.793s] -- Detecting C compiler ABI info - done
+[0.799s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.799s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.801s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.920s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.921s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.922s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.099s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.104s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.405s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.721s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.821s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.019s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.019s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.019s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.019s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.035s] -- Found PythonExtra: .so  
+[2.082s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.110s] -- Added test 'lint_cmake' to check CMake code style
+[2.112s] -- Added test 'xmllint' to check XML markup files
+[2.115s] -- Configuring done
+[2.147s] -- Generating done
+[2.155s] -- Build files have been written to: /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints
+[2.161s] Invoked command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ntruong1124/ros2_ws/Python/service/src/add_two_ints -DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints
+[2.163s] Invoking command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints -- -j8 -l8
+[2.194s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.203s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.211s] [  6%] Built target ament_cmake_python_copy_add_two_ints
+[2.435s] running egg_info
+[2.435s] creating add_two_ints.egg-info
+[2.436s] writing add_two_ints.egg-info/PKG-INFO
+[2.437s] writing dependency_links to add_two_ints.egg-info/dependency_links.txt
+[2.437s] writing top-level names to add_two_ints.egg-info/top_level.txt
+[2.437s] writing manifest file 'add_two_ints.egg-info/SOURCES.txt'
+[2.440s] reading manifest file 'add_two_ints.egg-info/SOURCES.txt'
+[2.440s] writing manifest file 'add_two_ints.egg-info/SOURCES.txt'
+[2.477s] [  6%] Built target ament_cmake_python_build_add_two_ints_egg
+[2.488s] [  6%] Built target add_two_ints__cpp
+[2.498s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.498s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.498s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.509s] [ 19%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_c.dir/rosidl_generator_c/add_two_ints/srv/detail/sum_two_nums__functions.c.o[0m
+[2.567s] [ 22%] [32m[1mLinking C shared library libadd_two_ints__rosidl_generator_c.so[0m
+[2.648s] [ 22%] Built target add_two_ints__rosidl_generator_c
+[2.657s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.657s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.658s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.724s] [ 35%] [32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/add_two_ints/srv/sum_two_nums__type_support.cpp.o[0m
+[2.785s] [ 38%] [32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/add_two_ints/srv/detail/sum_two_nums__type_support.cpp.o[0m
+[2.798s] [ 41%] [32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/add_two_ints/srv/detail/dds_fastrtps/sum_two_nums__type_support.cpp.o[0m
+[2.952s] [ 45%] [32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_c.dir/rosidl_typesupport_c/add_two_ints/srv/sum_two_nums__type_support.cpp.o[0m
+[2.992s] [ 48%] [32m[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_c.so[0m
+[3.003s] [ 51%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/add_two_ints/srv/detail/sum_two_nums__type_support.c.o[0m
+[3.023s] [ 54%] [32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/add_two_ints/srv/detail/sum_two_nums__type_support_c.cpp.o[0m
+[3.050s] [ 58%] [32m[1mLinking C shared library libadd_two_ints__rosidl_typesupport_introspection_c.so[0m
+[3.079s] [ 61%] [32m[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_cpp.so[0m
+[3.091s] [ 61%] Built target add_two_ints__rosidl_typesupport_c
+[3.136s] [ 61%] Built target add_two_ints__rosidl_typesupport_introspection_c
+[3.174s] [ 61%] Built target add_two_ints__rosidl_typesupport_cpp
+[3.226s] [ 64%] [32m[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_introspection_cpp.so[0m
+[3.267s] [ 67%] [32m[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.310s] [ 67%] Built target add_two_ints__rosidl_typesupport_introspection_cpp
+[3.367s] [ 70%] [32m[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_c.so[0m
+[3.387s] [ 70%] Built target add_two_ints__rosidl_typesupport_fastrtps_cpp
+[3.480s] [ 70%] Built target add_two_ints__rosidl_typesupport_fastrtps_c
+[3.497s] [ 70%] Built target add_two_ints
+[3.516s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.845s] [ 74%] Built target add_two_ints__py
+[3.861s] [ 77%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_py.dir/rosidl_generator_py/add_two_ints/srv/_sum_two_nums_s.c.o[0m
+[3.944s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/add_two_ints/libadd_two_ints__rosidl_generator_py.so[0m
+[4.008s] [ 80%] Built target add_two_ints__rosidl_generator_py
+[4.027s] [ 87%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c.o[0m
+[4.027s] [ 87%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.029s] [ 90%] [32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.116s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.117s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.123s] [100%] [32m[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.177s] [100%] Built target add_two_ints__rosidl_typesupport_c__pyext
+[4.178s] [100%] Built target add_two_ints__rosidl_typesupport_fastrtps_c__pyext
+[4.200s] [100%] Built target add_two_ints__rosidl_typesupport_introspection_c__pyext
+[4.210s] Invoked command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints -- -j8 -l8
+[4.222s] Invoking command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints
+[4.228s] -- Install configuration: ""
+[4.229s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/rosidl_interfaces/add_two_ints
+[4.229s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.230s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.230s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/sum_two_nums.h
+[4.230s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.230s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__functions.h
+[4.231s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__functions.c
+[4.231s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.h
+[4.231s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__struct.h
+[4.231s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg
+[4.231s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_generator_c__visibility_control.h
+[4.232s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/library_path.sh
+[4.232s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/library_path.dsv
+[4.232s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so
+[4.233s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so" to ""
+[4.233s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.233s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.233s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.233s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_fastrtps_c.h
+[4.233s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg
+[4.233s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.234s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so
+[4.234s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so" to ""
+[4.234s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.234s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.234s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.234s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.c
+[4.235s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_introspection_c.h
+[4.235s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg
+[4.235s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.235s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so
+[4.235s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so" to ""
+[4.235s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so
+[4.236s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so" to ""
+[4.236s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.236s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.236s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/sum_two_nums.hpp
+[4.236s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.236s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__builder.hpp
+[4.236s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.hpp
+[4.237s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__struct.hpp
+[4.237s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__traits.hpp
+[4.237s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg
+[4.237s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.237s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.237s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.237s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.238s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_fastrtps_cpp.hpp
+[4.238s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/dds_fastrtps
+[4.238s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg
+[4.238s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.238s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so
+[4.238s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.239s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints
+[4.239s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv
+[4.239s] -- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail
+[4.239s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.cpp
+[4.239s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_introspection_cpp.hpp
+[4.239s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so
+[4.239s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so" to ""
+[4.239s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so
+[4.240s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so" to ""
+[4.240s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/pythonpath.sh
+[4.240s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/pythonpath.dsv
+[4.240s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info
+[4.241s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/top_level.txt
+[4.241s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/PKG-INFO
+[4.241s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.242s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.242s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints
+[4.242s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c
+[4.242s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv
+[4.242s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums_s.c
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums.py
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.243s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/libadd_two_ints__rosidl_generator_py.so
+[4.276s] Listing '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints'...
+[4.277s] Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py'...
+[4.277s] Listing '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv'...
+[4.277s] Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py'...
+[4.277s] Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums.py'...
+[4.281s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.281s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.281s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.281s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.281s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.281s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.281s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so
+[4.282s] -- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so" to ""
+[4.282s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums.idl
+[4.282s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums.srv
+[4.282s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums_Request.msg
+[4.282s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums_Response.msg
+[4.283s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/package_run_dependencies/add_two_ints
+[4.283s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/parent_prefix_path/add_two_ints
+[4.283s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.sh
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.dsv
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/path.sh
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/path.dsv
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.bash
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.sh
+[4.284s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.zsh
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.dsv
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/package.dsv
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/packages/add_two_ints
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport.cmake
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport-noconfig.cmake
+[4.285s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport-noconfig.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cppExport.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.286s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport-noconfig.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport-noconfig.cmake
+[4.287s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_libraries-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_targets-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig.cmake
+[4.288s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig-version.cmake
+[4.289s] -- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/package.xml
+[4.291s] Invoked command in '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints

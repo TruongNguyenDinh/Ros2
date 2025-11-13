@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.001542] (add_two_ints) JobQueued: {'identifier': 'add_two_ints', 'dependencies': OrderedDict()}
+[0.001639] (service_nodes) JobQueued: {'identifier': 'service_nodes', 'dependencies': OrderedDict()}
+[0.001673] (add_two_ints) JobStarted: {'identifier': 'add_two_ints'}
+[0.006663] (service_nodes) JobStarted: {'identifier': 'service_nodes'}
+[0.013163] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'cmake'}
+[0.014824] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '/home/ntruong1124/ros2_ws/Python/service/src/add_two_ints', '-DCMAKE_INSTALL_PREFIX=/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints'], 'cwd': '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ntruong1124'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ntruong1124'), ('OLDPWD', '/home/ntruong1124/ros2_ws/Python/service/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ntruong1124'), ('NAME', 'Javis'), ('WSL_INTEROP', '/run/WSL/305_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools'), ('WT_SESSION', 'ac9fa048-fa55-442f-8840-4dd9b6040e53'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ntruong1124/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099619] (-) TimerEvent: {}
+[0.137150] (add_two_ints) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199759] (-) TimerEvent: {}
+[0.300231] (-) TimerEvent: {}
+[0.400710] (-) TimerEvent: {}
+[0.501052] (-) TimerEvent: {}
+[0.503683] (add_two_ints) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601155] (-) TimerEvent: {}
+[0.639252] (service_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/service_nodes', 'build', '--build-base', '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build', 'install', '--record', '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ntruong1124/ros2_ws/Python/service/src/service_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ntruong1124', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/ntruong1124', 'OLDPWD': '/home/ntruong1124/ros2_ws/Python/service/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ntruong1124', 'NAME': 'Javis', 'WSL_INTEROP': '/run/WSL/305_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools', 'WT_SESSION': 'ac9fa048-fa55-442f-8840-4dd9b6040e53', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/ntruong1124/.cache/dotnet_bundle_extract', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.693404] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701252] (-) TimerEvent: {}
+[0.794653] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.799975] (add_two_ints) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.800340] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.800521] (add_two_ints) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.801346] (-) TimerEvent: {}
+[0.802993] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.828637] (service_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[0.829518] (service_nodes) StdoutLine: {'line': b'writing ../../build/service_nodes/service_nodes.egg-info/PKG-INFO\n'}
+[0.829785] (service_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/service_nodes/service_nodes.egg-info/dependency_links.txt\n'}
+[0.830017] (service_nodes) StdoutLine: {'line': b'writing entry points to ../../build/service_nodes/service_nodes.egg-info/entry_points.txt\n'}
+[0.830200] (service_nodes) StdoutLine: {'line': b'writing requirements to ../../build/service_nodes/service_nodes.egg-info/requires.txt\n'}
+[0.830260] (service_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/service_nodes/service_nodes.egg-info/top_level.txt\n'}
+[0.831838] (service_nodes) StdoutLine: {'line': b"reading manifest file '../../build/service_nodes/service_nodes.egg-info/SOURCES.txt'\n"}
+[0.832301] (service_nodes) StdoutLine: {'line': b"writing manifest file '../../build/service_nodes/service_nodes.egg-info/SOURCES.txt'\n"}
+[0.832429] (service_nodes) StdoutLine: {'line': b'running build\n'}
+[0.832491] (service_nodes) StdoutLine: {'line': b'running build_py\n'}
+[0.832695] (service_nodes) StdoutLine: {'line': b'copying service_nodes/service_cl_node.py -> /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes\n'}
+[0.832768] (service_nodes) StdoutLine: {'line': b'copying service_nodes/service_sv_node.py -> /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes\n'}
+[0.832944] (service_nodes) StdoutLine: {'line': b'running install\n'}
+[0.833239] (service_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[0.833796] (service_nodes) StdoutLine: {'line': b'copying /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes/service_cl_node.py -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes\n'}
+[0.833953] (service_nodes) StdoutLine: {'line': b'copying /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes/service_sv_node.py -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes\n'}
+[0.834459] (service_nodes) StdoutLine: {'line': b'byte-compiling /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes/service_cl_node.py to service_cl_node.cpython-310.pyc\n'}
+[0.834970] (service_nodes) StdoutLine: {'line': b'byte-compiling /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes/service_sv_node.py to service_sv_node.cpython-310.pyc\n'}
+[0.835699] (service_nodes) StdoutLine: {'line': b'running install_data\n'}
+[0.836013] (service_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.837978] (service_nodes) StdoutLine: {'line': b"removing '/home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.838379] (service_nodes) StdoutLine: {'line': b'Copying ../../build/service_nodes/service_nodes.egg-info to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes-0.0.0-py3.10.egg-info\n'}
+[0.839236] (service_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[0.859176] (service_nodes) StdoutLine: {'line': b'Installing client_node script to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/service_nodes\n'}
+[0.859551] (service_nodes) StdoutLine: {'line': b'Installing server_node script to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/service_nodes\n'}
+[0.860008] (service_nodes) StdoutLine: {'line': b"writing list of installed files to '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes/install.log'\n"}
+[0.884980] (service_nodes) CommandEnded: {'returncode': 0}
+[0.894099] (service_nodes) JobEnded: {'identifier': 'service_nodes', 'rc': 0}
+[0.901462] (-) TimerEvent: {}
+[0.916972] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.921825] (add_two_ints) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.922228] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.922569] (add_two_ints) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.923849] (add_two_ints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.001578] (-) TimerEvent: {}
+[1.038059] (add_two_ints) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.100649] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.101801] (-) TimerEvent: {}
+[1.102261] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.105867] (add_two_ints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.195885] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201906] (-) TimerEvent: {}
+[1.302234] (-) TimerEvent: {}
+[1.402670] (-) TimerEvent: {}
+[1.406510] (add_two_ints) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.502873] (-) TimerEvent: {}
+[1.546593] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603062] (-) TimerEvent: {}
+[1.703371] (-) TimerEvent: {}
+[1.722552] (add_two_ints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803469] (-) TimerEvent: {}
+[1.818145] (add_two_ints) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.822808] (add_two_ints) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.903598] (-) TimerEvent: {}
+[2.003988] (-) TimerEvent: {}
+[2.020548] (add_two_ints) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.020745] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.020792] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.020832] (add_two_ints) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.036908] (add_two_ints) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.083391] (add_two_ints) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.104065] (-) TimerEvent: {}
+[2.111539] (add_two_ints) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.113312] (add_two_ints) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.116480] (add_two_ints) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.148156] (add_two_ints) StdoutLine: {'line': b'-- Generating done\n'}
+[2.156972] (add_two_ints) StdoutLine: {'line': b'-- Build files have been written to: /home/ntruong1124/ros2_ws/Python/service/build/add_two_ints\n'}
+[2.162179] (add_two_ints) CommandEnded: {'returncode': 0}
+[2.164324] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'build'}
+[2.164432] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints', '--', '-j8', '-l8'], 'cwd': '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ntruong1124'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ntruong1124'), ('OLDPWD', '/home/ntruong1124/ros2_ws/Python/service/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ntruong1124'), ('NAME', 'Javis'), ('WSL_INTEROP', '/run/WSL/305_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools'), ('WT_SESSION', 'ac9fa048-fa55-442f-8840-4dd9b6040e53'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ntruong1124/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.195009] (add_two_ints) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.204242] (-) TimerEvent: {}
+[2.204659] (add_two_ints) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.212533] (add_two_ints) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_add_two_ints\n'}
+[2.304359] (-) TimerEvent: {}
+[2.404761] (-) TimerEvent: {}
+[2.435993] (add_two_ints) StdoutLine: {'line': b'running egg_info\n'}
+[2.436835] (add_two_ints) StdoutLine: {'line': b'creating add_two_ints.egg-info\n'}
+[2.437657] (add_two_ints) StdoutLine: {'line': b'writing add_two_ints.egg-info/PKG-INFO\n'}
+[2.438042] (add_two_ints) StdoutLine: {'line': b'writing dependency_links to add_two_ints.egg-info/dependency_links.txt\n'}
+[2.438295] (add_two_ints) StdoutLine: {'line': b'writing top-level names to add_two_ints.egg-info/top_level.txt\n'}
+[2.438628] (add_two_ints) StdoutLine: {'line': b"writing manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[2.441270] (add_two_ints) StdoutLine: {'line': b"reading manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[2.441911] (add_two_ints) StdoutLine: {'line': b"writing manifest file 'add_two_ints.egg-info/SOURCES.txt'\n"}
+[2.478771] (add_two_ints) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_add_two_ints_egg\n'}
+[2.489118] (add_two_ints) StdoutLine: {'line': b'[  6%] Built target add_two_ints__cpp\n'}
+[2.499425] (add_two_ints) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.499744] (add_two_ints) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.499851] (add_two_ints) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.504864] (-) TimerEvent: {}
+[2.510345] (add_two_ints) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_c.dir/rosidl_generator_c/add_two_ints/srv/detail/sum_two_nums__functions.c.o\x1b[0m\n'}
+[2.568926] (add_two_ints) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libadd_two_ints__rosidl_generator_c.so\x1b[0m\n'}
+[2.604983] (-) TimerEvent: {}
+[2.649183] (add_two_ints) StdoutLine: {'line': b'[ 22%] Built target add_two_ints__rosidl_generator_c\n'}
+[2.658958] (add_two_ints) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.659155] (add_two_ints) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.659644] (add_two_ints) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.705113] (-) TimerEvent: {}
+[2.725362] (add_two_ints) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/add_two_ints/srv/sum_two_nums__type_support.cpp.o\x1b[0m\n'}
+[2.786294] (add_two_ints) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/add_two_ints/srv/detail/sum_two_nums__type_support.cpp.o\x1b[0m\n'}
+[2.799753] (add_two_ints) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/add_two_ints/srv/detail/dds_fastrtps/sum_two_nums__type_support.cpp.o\x1b[0m\n'}
+[2.806061] (-) TimerEvent: {}
+[2.906396] (-) TimerEvent: {}
+[2.950903] (add_two_ints) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_c.dir/rosidl_typesupport_c/add_two_ints/srv/sum_two_nums__type_support.cpp.o\x1b[0m\n'}
+[2.993509] (add_two_ints) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.004408] (add_two_ints) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/add_two_ints/srv/detail/sum_two_nums__type_support.c.o\x1b[0m\n'}
+[3.006509] (-) TimerEvent: {}
+[3.024010] (add_two_ints) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/add_two_ints/srv/detail/sum_two_nums__type_support_c.cpp.o\x1b[0m\n'}
+[3.051334] (add_two_ints) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libadd_two_ints__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.080798] (add_two_ints) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.092841] (add_two_ints) StdoutLine: {'line': b'[ 61%] Built target add_two_ints__rosidl_typesupport_c\n'}
+[3.106629] (-) TimerEvent: {}
+[3.136993] (add_two_ints) StdoutLine: {'line': b'[ 61%] Built target add_two_ints__rosidl_typesupport_introspection_c\n'}
+[3.175932] (add_two_ints) StdoutLine: {'line': b'[ 61%] Built target add_two_ints__rosidl_typesupport_cpp\n'}
+[3.206748] (-) TimerEvent: {}
+[3.227187] (add_two_ints) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.268726] (add_two_ints) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.306815] (-) TimerEvent: {}
+[3.311338] (add_two_ints) StdoutLine: {'line': b'[ 67%] Built target add_two_ints__rosidl_typesupport_introspection_cpp\n'}
+[3.368189] (add_two_ints) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libadd_two_ints__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.388900] (add_two_ints) StdoutLine: {'line': b'[ 70%] Built target add_two_ints__rosidl_typesupport_fastrtps_cpp\n'}
+[3.406899] (-) TimerEvent: {}
+[3.481093] (add_two_ints) StdoutLine: {'line': b'[ 70%] Built target add_two_ints__rosidl_typesupport_fastrtps_c\n'}
+[3.498869] (add_two_ints) StdoutLine: {'line': b'[ 70%] Built target add_two_ints\n'}
+[3.507048] (-) TimerEvent: {}
+[3.517532] (add_two_ints) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.607212] (-) TimerEvent: {}
+[3.707515] (-) TimerEvent: {}
+[3.807834] (-) TimerEvent: {}
+[3.846561] (add_two_ints) StdoutLine: {'line': b'[ 74%] Built target add_two_ints__py\n'}
+[3.862336] (add_two_ints) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_generator_py.dir/rosidl_generator_py/add_two_ints/srv/_sum_two_nums_s.c.o\x1b[0m\n'}
+[3.907913] (-) TimerEvent: {}
+[3.945546] (add_two_ints) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/libadd_two_ints__rosidl_generator_py.so\x1b[0m\n'}
+[4.008037] (-) TimerEvent: {}
+[4.009737] (add_two_ints) StdoutLine: {'line': b'[ 80%] Built target add_two_ints__rosidl_generator_py\n'}
+[4.028487] (add_two_ints) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.028742] (add_two_ints) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.030138] (add_two_ints) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/add_two_ints__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.108280] (-) TimerEvent: {}
+[4.117849] (add_two_ints) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.118779] (add_two_ints) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.124598] (add_two_ints) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.178292] (add_two_ints) StdoutLine: {'line': b'[100%] Built target add_two_ints__rosidl_typesupport_c__pyext\n'}
+[4.179773] (add_two_ints) StdoutLine: {'line': b'[100%] Built target add_two_ints__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.201448] (add_two_ints) StdoutLine: {'line': b'[100%] Built target add_two_ints__rosidl_typesupport_introspection_c__pyext\n'}
+[4.208391] (-) TimerEvent: {}
+[4.211914] (add_two_ints) CommandEnded: {'returncode': 0}
+[4.213256] (add_two_ints) JobProgress: {'identifier': 'add_two_ints', 'progress': 'install'}
+[4.222988] (add_two_ints) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints'], 'cwd': '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ntruong1124'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ntruong1124'), ('OLDPWD', '/home/ntruong1124/ros2_ws/Python/service/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ntruong1124'), ('NAME', 'Javis'), ('WSL_INTEROP', '/run/WSL/305_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-24/bin:/mnt/c/opencv/opencv-mingw64/x64/mingw/bin:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Users/NTruong1124/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NTruong1124/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NTruong1124/AppData/Local/Python/bin:/snap/bin:/home/ntruong1124/.dotnet/tools'), ('WT_SESSION', 'ac9fa048-fa55-442f-8840-4dd9b6040e53'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/home/ntruong1124/.cache/dotnet_bundle_extract'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ntruong1124/ros2_ws/Python/service/build/add_two_ints'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.229033] (add_two_ints) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.230102] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/rosidl_interfaces/add_two_ints\n'}
+[4.230468] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.231260] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.231576] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/sum_two_nums.h\n'}
+[4.231752] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.231975] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__functions.h\n'}
+[4.232174] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__functions.c\n'}
+[4.232412] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.h\n'}
+[4.232503] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__struct.h\n'}
+[4.232695] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[4.232869] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.233635] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/library_path.sh\n'}
+[4.233751] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/library_path.dsv\n'}
+[4.234056] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so\n'}
+[4.234453] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_c.so" to ""\n'}
+[4.234741] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.234836] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.234964] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.235002] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_fastrtps_c.h\n'}
+[4.235038] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[4.235087] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.235259] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so\n'}
+[4.235592] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.235843] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.235943] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.236003] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.236078] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.c\n'}
+[4.236228] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_introspection_c.h\n'}
+[4.236303] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[4.236420] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.236470] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so\n'}
+[4.236834] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.236907] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so\n'}
+[4.237133] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_c.so" to ""\n'}
+[4.237278] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.237528] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.237631] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/sum_two_nums.hpp\n'}
+[4.237732] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.237851] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__builder.hpp\n'}
+[4.238060] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.hpp\n'}
+[4.238150] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__struct.hpp\n'}
+[4.238301] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__traits.hpp\n'}
+[4.238566] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[4.238844] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.238928] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.239056] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.239106] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.239159] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.239206] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/dds_fastrtps\n'}
+[4.239549] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg\n'}
+[4.239626] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.239772] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.240021] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.240152] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints\n'}
+[4.240269] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv\n'}
+[4.240438] (add_two_ints) StdoutLine: {'line': b'-- Up-to-date: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail\n'}
+[4.240528] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__type_support.cpp\n'}
+[4.240592] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/include/add_two_ints/add_two_ints/srv/detail/sum_two_nums__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.240653] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so\n'}
+[4.240979] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.241052] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so\n'}
+[4.241159] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_typesupport_cpp.so" to ""\n'}
+[4.241360] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/pythonpath.sh\n'}
+[4.241451] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/pythonpath.dsv\n'}
+[4.241652] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info\n'}
+[4.242626] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.242775] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.243086] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.243184] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.243300] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints\n'}
+[4.243506] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_c.c\n'}
+[4.243698] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv\n'}
+[4.243961] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums_s.c\n'}
+[4.244160] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums.py\n'}
+[4.244297] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py\n'}
+[4.244416] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.244606] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.244708] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py\n'}
+[4.244772] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.244833] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/_add_two_ints_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.244895] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.244954] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/libadd_two_ints__rosidl_generator_py.so\n'}
+[4.277947] (add_two_ints) StdoutLine: {'line': b"Listing '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints'...\n"}
+[4.278238] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/__init__.py'...\n"}
+[4.278308] (add_two_ints) StdoutLine: {'line': b"Listing '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv'...\n"}
+[4.278365] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/__init__.py'...\n"}
+[4.278422] (add_two_ints) StdoutLine: {'line': b"Compiling '/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/srv/_sum_two_nums.py'...\n"}
+[4.282071] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.282402] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.282505] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.282696] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.282938] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.283019] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/local/lib/python3.10/dist-packages/add_two_ints/add_two_ints_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.283059] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so\n'}
+[4.283323] (add_two_ints) StdoutLine: {'line': b'-- Set runtime path of "/home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/lib/libadd_two_ints__rosidl_generator_py.so" to ""\n'}
+[4.283587] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums.idl\n'}
+[4.283816] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums.srv\n'}
+[4.284028] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums_Request.msg\n'}
+[4.284121] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/srv/SumTwoNums_Response.msg\n'}
+[4.284532] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/package_run_dependencies/add_two_ints\n'}
+[4.284909] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/parent_prefix_path/add_two_ints\n'}
+[4.285080] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.sh\n'}
+[4.285278] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/ament_prefix_path.dsv\n'}
+[4.285414] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/path.sh\n'}
+[4.285585] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/environment/path.dsv\n'}
+[4.285705] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.bash\n'}
+[4.285969] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.sh\n'}
+[4.286109] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.zsh\n'}
+[4.286203] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/local_setup.dsv\n'}
+[4.286444] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/package.dsv\n'}
+[4.286529] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/ament_index/resource_index/packages/add_two_ints\n'}
+[4.286786] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport.cmake\n'}
+[4.287077] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.287156] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.287195] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.287412] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.287481] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.287580] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport.cmake\n'}
+[4.287689] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.287804] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_cppExport.cmake\n'}
+[4.287924] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.288038] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.288153] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.288266] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.288389] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport.cmake\n'}
+[4.288506] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_ints__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.288626] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport.cmake\n'}
+[4.288752] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/export_add_two_ints__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.288870] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake-extras.cmake\n'}
+[4.289145] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.289309] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.289472] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.289543] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.289727] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.289821] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.290043] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig.cmake\n'}
+[4.290126] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/cmake/add_two_intsConfig-version.cmake\n'}
+[4.290181] (add_two_ints) StdoutLine: {'line': b'-- Installing: /home/ntruong1124/ros2_ws/Python/service/install/add_two_ints/share/add_two_ints/package.xml\n'}
+[4.292514] (add_two_ints) CommandEnded: {'returncode': 0}
+[4.306297] (add_two_ints) JobEnded: {'identifier': 'add_two_ints', 'rc': 0}
+[4.307517] (-) EventReactorShutdown: {}

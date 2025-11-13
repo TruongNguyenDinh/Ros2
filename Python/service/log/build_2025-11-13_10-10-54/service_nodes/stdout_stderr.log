@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/service_nodes/service_nodes.egg-info
+writing ../../build/service_nodes/service_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/service_nodes/service_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/service_nodes/service_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/service_nodes/service_nodes.egg-info/requires.txt
+writing top-level names to ../../build/service_nodes/service_nodes.egg-info/top_level.txt
+writing manifest file '../../build/service_nodes/service_nodes.egg-info/SOURCES.txt'
+reading manifest file '../../build/service_nodes/service_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/service_nodes/service_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build
+creating /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib
+creating /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes
+copying service_nodes/service_cl_node.py -> /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes
+copying service_nodes/__init__.py -> /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes
+copying service_nodes/service_sv_node.py -> /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes
+running install
+running install_lib
+creating /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes
+copying /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes/service_cl_node.py -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes
+copying /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes/__init__.py -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes
+copying /home/ntruong1124/ros2_ws/Python/service/build/service_nodes/build/lib/service_nodes/service_sv_node.py -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes
+byte-compiling /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes/service_cl_node.py to service_cl_node.cpython-310.pyc
+byte-compiling /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes/service_sv_node.py to service_sv_node.cpython-310.pyc
+running install_data
+creating /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/share/ament_index
+creating /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/share/ament_index/resource_index
+creating /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/share/ament_index/resource_index/packages
+copying resource/service_nodes -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/share/service_nodes
+running install_egg_info
+Copying ../../build/service_nodes/service_nodes.egg-info to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/python3.10/site-packages/service_nodes-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_node script to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/service_nodes
+Installing server_node script to /home/ntruong1124/ros2_ws/Python/service/install/service_nodes/lib/service_nodes
+writing list of installed files to '/home/ntruong1124/ros2_ws/Python/service/build/service_nodes/install.log'

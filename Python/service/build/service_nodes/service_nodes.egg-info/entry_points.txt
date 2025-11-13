@@ -1,0 +1,4 @@
+[console_scripts]
+client_node = service_nodes.service_cl_node:main
+server_node = service_nodes.service_sv_node:main
+
