@@ -1,4 +1,4 @@
-# TurtleSim
+# TurtleSim và các lệnh quan sát, điều khiển
 Turtlesim là một ứng dụng mô phỏng robot đơn giản, thường dùng để:
 - Học ROS2 cơ bản
 - Thực hành topic, service, action
@@ -171,9 +171,78 @@ Bạn có thể gửi thủ công lệnh để vận hành con rùa
 #Cú pháp:  ros2 action send_goal {action} {action_type} "{name: value}"
  ros2 action send_goal /turtle2/rotate_absolute turtlesim/action/RotateAbsolute "{theta: -3}"
 ```
-
-
-
+## Interfaces
+```bash
+ros2 interface
+list      package   packages  proto     show
+```
+interface là một định nghĩa các kiểu giao tiếp trong topic, nó giúp chung ta biết được kiểu giao tiếp nào đang diễn ra giữa các node
+```bash
+#Cú pháp  ros2 interface show {communication_type}
+ ros2 interface show geometry_msgs/msg/Twist
+```
+```bash
+# Kết quả
+# This expresses velocity in free space broken into its linear and angular parts.
+Vector3  linear
+        float64 x
+        float64 y
+        float64 z
+Vector3  angular
+        float64 x
+        float64 y
+        float64 z
+```
+Việc hiển thị này giúp ta có thể tham chiếu để kiểm soát dữ liệu hoặc là gọi nó để xử lý.  
+## Parameter
+```bash
+ros2 param
+delete    describe  dump      get       list      load      set
+```
+Giả sử ta muốn đổi màu cho nền của con rùa ta cần check thông tin về param mà node con rùa đang dùng
+```bash
+ros2 param list
+/turtlesim:
+  background_b
+  background_g
+  background_r
+  qos_overrides./parameter_events.publisher.depth
+  qos_overrides./parameter_events.publisher.durability
+  qos_overrides./parameter_events.publisher.history
+  qos_overrides./parameter_events.publisher.reliability
+  use_sim_time
+```
+Để xem thông tin kiểu dữ liệu ta dùng lệnh
+```bash
+#cú pháp ros2 param get {node_name} {param_name}
+ros2 param get /turtlesim background_b
+# Kết quả
+Integer value is: 100
+```
+```bash
+# Ép dữ liệu
+# Cú pháp ros2 param set {node_name} {param_name} {value}
+ros2 param set /turtlesim  background_b 100
+```
+# Điều khiển con rùa
+Mở terminal 2 và gõ
+```bash
+source install/setup.bash
+ros2 run turtlesim turtle_teleop_key
+#Kết quả
+Reading from keyboard
+---------------------------
+Use arrow keys to move the turtle.
+Use G|B|V|C|D|E|R|T keys to rotate to absolute orientations. 'F' to cancel a rotation.
+'Q' to quit.
+```
+Hiện tại ta đang có hai con rùa, để điều khiển con rùa 2 thì bạn cần phải `remap` lại điều khiển vì mặc định lệnh điều khiển con rùa sẽ sử dụng cho con rùa có tên là `/turtlesim1`
+```bash
+ros2 run turtlesim turtle_teleop_key --ros-args -r /turtle1/cmd_vel:=/turtle2/cmd_vel
+```
+với bất kì con rùa nào được `spawn`, việc `remap` luôn đúng nếu topic của `cmd_vel` của con rùa đó đang được `active`
+# Kết luận
+Qua trên, bạn đã có thể hiểu hơn về các giao tiếp, con rùa.
 
 
 
