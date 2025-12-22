@@ -1,0 +1,10 @@
+#Request
+int32 x_goal
+int32 y_goal
+---
+#Result
+bool is_success
+---
+#Feedback
+int32 x_current
+int32 y_current
