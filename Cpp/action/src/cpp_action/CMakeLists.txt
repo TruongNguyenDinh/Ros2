@@ -15,8 +15,13 @@ find_package(rclcpp_components REQUIRED)
 # Thêm từ đây
 add_library(action_server SHARED
   src/action_sv_node.cpp)
+add_library(action_client SHARED
+  src/action_cl_node.cpp)
 
 target_include_directories(action_server PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_include_directories(action_client PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
@@ -25,18 +30,30 @@ target_link_libraries(action_server PUBLIC
   rclcpp::rclcpp
   rclcpp_action::rclcpp_action
   rclcpp_components::component)
+target_link_libraries(action_client PUBLIC
+  ${custom_action_interfaces_TARGETS}
+  rclcpp::rclcpp
+  rclcpp_action::rclcpp_action
+  rclcpp_components::component)
+
 
 rclcpp_components_register_node(
   action_server
   PLUGIN "cpp_action::ActSvNode"
   EXECUTABLE action_server_exec
 )
+rclcpp_components_register_node(
+  action_client
+  PLUGIN "cpp_action::AtcClNode"
+  EXECUTABLE action_client_exec
+)
 
 install(TARGETS
   action_server
+  action_client
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin)
+  RUNTIME DESTINATION lib/${PROJECT_NAME})
 # Hết đoạn thêm
 
 
