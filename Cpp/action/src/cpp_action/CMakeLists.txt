@@ -53,7 +53,7 @@ install(TARGETS
   action_client
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
-  RUNTIME DESTINATION lib/${PROJECT_NAME})
+  RUNTIME DESTINATION bin)
 # Hết đoạn thêm
 
 
