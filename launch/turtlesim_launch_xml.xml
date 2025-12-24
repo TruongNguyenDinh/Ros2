@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="turtlesim" exec="turtlesim_node" name="sim" namespace="turtlesim1" args="--ros-args --log-level info" />
+    <node pkg="turtlesim" exec="turtlesim_node" name="sim" namespace="turtlesim2" args="--log-level warn" />
+    <node pkg="turtlesim" exec="mimic" name="mimic">
+        <remap from="/input/pose" to="/turtlesim1/turtle1/pose"/>
+        <remap from="/output/cmd_vel" to="/turtlesim2/turtle1/cmd_vel"/>
+    </node>
+</launch>
+<!--
+**LAUNCH
+-Launch file là file có mục đích cho thực thi nhiều node, tiến trình trong một lần gọi,
+ thay vì bạn phải mở nhiều terminal để chạy cho từng pkg node thì đưa vào cùng 1 laucnh file,
+ bạn chỉ cần gọi một lần là sẽ chạy các chương trình.
+-Giúp cho việc mở gọn hơn thay vì nhiều terminal gây khó nhìn.
+-Launch file có cho phép khai báo các yêu cầu như truyền args, remap....
+**Giải thích đoạn mã trên
+-Tạo ra hai con rùa chạy với tên là turtlesim1 và turtlesim2.
+-Mục đích là cho con rùa 2 đi theo con rùa 1 thông qua việc remap
+-Node mimic là một node có sẵn trong turtlesim, nó có trách nhiệm chuyển đổi từ pos->cmd_vel để
+ điều khiển con rùa
+ -->
