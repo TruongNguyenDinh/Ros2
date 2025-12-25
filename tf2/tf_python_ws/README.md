@@ -8,45 +8,43 @@
 
 **Tại sao cần static transforms:** 
 
-Trong ROS2, robot và các cảm biến, mảnh ghép của robot đều có  khung tọa độ riêng. Một static transforms là mối quan hệ cố định giữa 2 frame và sẽ không thay đổi theo thời gian ví dụ như:
+Trong ROS2, robot và các cảm biến, mảnh ghép của robot đều có khung tọa độ riêng. Một static transforms là mối quan hệ cố định giữa 2 frame và sẽ không thay đổi theo thời gian ví dụ như:
 
 - Cảm biến lidar sẽ được gắn cố định ở trên đầu, hoặc thân robot.
-
 - Camera gắn trên robot ở phần đầu hoặc thân... 
 
-Link bài hưỡng dẫn [Link]([Writing a static broadcaster (Python) &mdash; ROS 2 Documentation: Kilted documentation](https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html))
+Link bài hướng dẫn  
+[Writing a static broadcaster (Python)](https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html)
 
-Mục tiêu bài hưỡng dẫn:
+**Mục tiêu bài hướng dẫn:**
 
 - Nhớ lại các tạo gói ROS2 python
-
 - Cách viết node để **broadcast static transform** đến tf2
-
-- Build và chạy node, kiểm tra transform trên `/tf_static` 
-
-- Biết khi nào nên dùng static transform trong hệ thống ROS2.
+- Build và chạy node, kiểm tra transform trên `/tf_static`
+- Biết khi nào nên dùng static transform trong hệ thống ROS2
 
 > Một số lệnh nhớ
 
 ```bash
 colcon build
 source install/setup.bash
-# Chạy node
-# Nếu bạn làm theo hướng dẫn của ROS2 docs
+
+# Nếu bạn làm theo hướng dẫn ROS2 docs
 ros2 run learning_tf2_py static_turtle_tf2_broadcaster mystaticturtle 0 0 1 0 0 0
-# Nếu bạn chạy thư mục của github mình
+
+# Nếu bạn chạy repo github của mình
 ros2 run static_broadcaster static_tf2_broadcaster mystatic 0 0 1 0 0 0
 ```
 
-Sau khi chạy xong thì bạn sẽ mở một terminal mới và nhớ  `source` 
+Sau khi chạy xong, mở terminal mới và nhớ `source`:
 
 ```bash
 ros2 topic echo /tf_static
 ```
 
-Kết quả trả về:
+Kết quả:
 
-```
+```yaml
 transforms:
 - header:
     stamp:
@@ -67,153 +65,148 @@ transforms:
 ---
 ```
 
-> Lưu ý ở các phiển bản ROS2 thấp như humble thì bản phải bỏ chỗ
-> with ở chỗ rclpy.init() đi mới chạy được.
+> Lưu ý: ROS2 phiên bản thấp (ví dụ humble) cần **bỏ `with rclpy.init()`** thì code mới chạy được.
 
-## 2 Dynamic Boardcaster
+---
 
-Ngược với trên thì nó là khung tọa độ thay đổi theo thời gian.
+## 2. Dynamic Broadcaster
 
-Bài viết hưỡng dẫn của ROS2 [Link]([Writing a broadcaster (Python) &mdash; ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Py.html))
+Ngược lại với static broadcaster, dynamic broadcaster xuất bản khung tọa độ **thay đổi theo thời gian**.
 
-**Nội dung bài viết:**
+Link hướng dẫn ROS2:  
+[Writing a broadcaster (Python)](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Py.html)
 
-- Viết một node sẽ `broadcast pose của turtle` (vị trí và hướng) sang tf2, dựa trên dữ liệu nhận được từ topic /turtle{1}|{2}/pose
+**Nội dung:**
 
-- Cách làm và giải thích mã nguồn
+- Viết node `broadcast pose của turtle`
+- Lấy dữ liệu từ topic `/turtle{1|2}/pose`
+- Giải thích code và launch file
 
-- Nhớ lại cách dùng và chạy launch file
+---
 
-# 3 Listener
+## 3. Listener
 
-**Mục tiêu**: 
+**Mục tiêu:**
 
-- nghe TF tree
+- Nghe TF tree
+- Tra cứu (`lookup`) quan hệ giữa hai frame bất kỳ
 
-- tra cứu (lookup) quan hệ giữa hai frame bất kì
+Listener lắng nghe transform giữa hai frame và xử lý theo mục đích mong muốn (điều khiển, tính toán, v.v.)
 
-Nói chung là nó lắng nghe transform giữa hai frame và xử lý theo như yêu cầu mà chúng ta muốn. Các công thức toán học biến đổi vector...
+---
 
-## 4.Toán học biến đổi
+## 4. Toán học biến đổi
 
-**Công thức chuyển từ góc Euler sang Quaternion**
+### 4.1 Chuyển từ Euler sang Quaternion
 
-Trong ROS / Robotics, quaternion được dùng để biểu diễn hướng, tránh **gimbal lock** 
+Quaternion dùng trong ROS / Robotics để tránh **gimbal lock**.
 
-Thứ tự xoay : XYZ( yall - pitch - roll)     
-
-Thứ tự trả về: $[q_x,q_y,q_z,q_w]$ 
-
-Quaternion được tính từ các góc Euler (roll–pitch–yaw) theo thứ tự quay ZYX như sau:
-
-$$
-q_x = \sin\frac{\phi}{2}\cos\frac{\theta}{2}\cos\frac{\psi}{2}
- - \cos\frac{\phi}{2}\sin\frac{\theta}{2}\sin\frac{\psi}{2}
-$$
+- Thứ tự xoay: XYZ (roll – pitch – yaw)
+- Thứ tự trả về: `[q_x, q_y, q_z, q_w]`
+- Chuẩn ROS2 / tf2 (ZYX)
 
 $$
-q_y = \cos\frac{\phi}{2}\sin\frac{\theta}{2}\cos\frac{\psi}{2}
- + \sin\frac{\phi}{2}\cos\frac{\theta}{2}\sin\frac{\psi}{2}
+q_x = sin(φ/2)cos(θ/2)cos(ψ/2) - cos(φ/2)sin(θ/2)sin(ψ/2)
 $$
 
 $$
-q_z = \cos\frac{\phi}{2}\cos\frac{\theta}{2}\sin\frac{\psi}{2}
- - \sin\frac{\phi}{2}\sin\frac{\theta}{2}\cos\frac{\psi}{2}
+q_y = cos(φ/2)sin(θ/2)cos(ψ/2)
+    + sin(φ/2)cos(θ/2)sin(ψ/2)
 $$
 
 $$
-q_w = \cos\frac{\phi}{2}\cos\frac{\theta}{2}\cos\frac{\psi}{2}
- + \sin\frac{\phi}{2}\sin\frac{\theta}{2}\sin\frac{\psi}{2}
+q_z = cos(φ/2)cos(θ/2)sin(ψ/2)
+    - sin(φ/2)sin(θ/2)cos(ψ/2)
 $$
 
 $$
-\mathbf{q} = [q_x, q_y, q_z, q_w]^T
+q_w = cos(φ/2)cos(θ/2)cos(ψ/2)
+    + sin(φ/2)sin(θ/2)sin(ψ/2)
 $$
 
+$$
+q = [q_x, q_y, q_z, q_w]^T
+$$
 
+---
 
-Thứ tự này chuẩn ROS2 / tf2
-
-**Công thức tính khoảng cách**
+### 4.2 Công thức khoảng cách
 
 $$
 distance = \sqrt{(x_{target} - x_{turtle2})^2 + (y_{target} - y_{turtle2})^2}
 $$
 
-Giải thích đoạn code
+Trong code:
 
 ```python
-scale_forward_speed = 0.5
 msg.linear.x = scale_forward_speed * math.sqrt(
-   t.transform.translation.x ** 2 +
-   t.transform.translation.y ** 2
-   #Công thức: distance = sqrt(x^2 +y^2)
+    t.transform.translation.x ** 2 +
+    t.transform.translation.y ** 2
 )
 ```
 
-Vì tọa độ con rùa 2 luôn được lấy làm gốc nên luôn luôn bằng 0 (dưới góc nhìn của con rùa 2) chính vì thế ta rút gọn công thức về :
+Do turtle2 được lấy làm gốc nên:
+
+```latex
+distance = sqrt(x^2 + y^2)
+```
+
+---
+
+### 4.3 Công thức góc định hướng
 
 $$
-distance = \sqrt{x_{target}^2 + y_{target}^2}
+θ = atan2(Δy, Δx)
+$$
+$$
+Δy = y_{target} - y_{turtle2}
+$$
+$$
+Δx = x_{target} - x_{turtle2}
 $$
 
-> Lưu ý: Dưới góc nhìn của chính con rùa 2 thì luôn là (0,0) nhưng dưới góc nhìn rùa 1 và world thì khác 0.
-
-**Công thức tính góc xoay ( góc định hướng)**
-
-Ta có công thức:
+Rút gọn:
 
 $$
-\theta = atan2(\Delta y,\Delta x) \\ \Delta y = y_{target} - y_{turtle2} \\ \Delta x = x_{target} - x_{turtle2}
+θ = atan2(y, x)
 $$
 
-Tuy nhiên việc ta chọn turtle2 làm gốc nên công thức rút gọn về dạng:
+Ngoài ra có thể dùng:
 
 $$
-\theta = atan2(y,x)
+θ = atan(y/x)
 $$
 
-Kết quả trả về $(-\pi,\pi]$
+Nhưng cần **xử lý ngoại lệ chia cho 0**.
 
-Với $\theta$ là góc giữa vector (x,y) và **trục Ox**, tính ngược chiều kim đồng hồ hay nói cách khác là góc mà turtle2 cần quay để hướng về phía **target**.
+---
 
-Ngoài ra ta cũng có một công thức tính 
+## 5. Tổng kết
 
-$$
-\theta = atan(y/x)
-$$
+### 5.1 Broadcaster
 
-Tuy nhiên phải **xử lý ngoại lệ tránh chia 0**
+- Xuất bản quan hệ biến đổi giữa các frame
+- Bao gồm:
+  - Vector tịnh tiến `[x y z]`
+  - Hướng quay (quaternion / RPY)
 
-## 5 Tổng kết
+Ma trận biến đổi:
 
-#### 5.1**Broadcaster** có nhiệm vụ **xuất bản (publish) mối quan hệ biến đổi tọa độ (vị trí + góc quay)** giữa các frame.
+```latex
+T = | R  t |
+    | 0  1 |
+```
 
-`Transform` bao gồm:
+---
 
-- vector tịnh tiến [x y z] 
+### 5.2 Listener
 
-- Hướng quay [quaternion / roll - pitch - yaw] 
-
-- Công thức:
-
-$$
-T = \begin{bmatrix}
-R & t \\
-1 & 0
-\end{bmatrix}
-$$
-
-Với R là ma trận xoay, t là ma trận tịnh tiến
-
-
-
-#### 5.2 **Listener** có nhiệm vụ **lắng nghe (lookup) các biến đổi đó** để biết vị trí tương đối giữa các frame.
-
-- Công thức:
+- Lắng nghe và tra cứu transform
+- Biết vị trí tương đối giữa các frame
 
 $$
 \vec{p}_{A->B} = T^B_A.\vec{p}
 $$
+
 
 
