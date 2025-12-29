@@ -56,8 +56,12 @@ private:
                 try{
                     t = tf_buffer_ ->lookupTransform(
                         toFrameRel,
+                        this->get_clock()->now(),
                         fromFrameRel,
-                        tf2::TimePointZero
+                        //tf2::TimePointZero //Ban đầu
+                        this->get_clock()->now() - rclcpp::Duration(5,0), // Thử đổi sang đoạn này
+                        "world",
+                        std::chrono::microseconds(100)
                     );
                 }
                 catch(const tf2::TransformException &ex){

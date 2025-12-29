@@ -21,7 +21,7 @@ def generate_launch_description():
             ]
         ),
         DeclareLaunchArgument(
-            'target_frame', default_value='turtle1',
+            'target_frame', default_value='carrot',
             description='Target frame name.'
         ),
         Node(
