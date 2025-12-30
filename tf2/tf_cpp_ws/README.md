@@ -136,3 +136,45 @@ t = tf_buffer_->lookupTransform(
     this->now() - rclcpp::Duration::from_seconds(0.1)
 );
 ```
+# Message Filter
+Tại phần ví dụ trên ta có thể thấy là việc `subscriber` thông thường sẽ luôn gọi `function callback` bất kể khi nào nó nhận được `msg` nên sẽ sảy ra hiện tượng chưa có `transform` mà đã gọi callback dẫn đến cảnh báo của ROS2 xuất hiện
+```bash
+could not transform turtle1 to turtle2 :
+Lookup would require extrapolation into the future
+```
+Nguyên nhân là do **message có timestamp**, nhưng **tf2 chưa có transform tương ứng tại thời điểm đó.**
+Lúc này message filter chính là giải pháp giúp các bạn tránh hiện tượng trên.
+
+**Message Filter** là cơ chế giúp **kiểm soát thời điểm callback được gọi**, dựa trên **sự tồn tại của transform trong tf2 tại đúng timestamp của message.**
+
+- `message_filters::Subscriber` là một subscriber đặc biệt, **không gọi callback trực tiếp** khi nhận được message.
+- Thay vào đó, message sẽ được chuyển cho **tf2_ros::MessageFilter.**
+- `MessageFilter` sẽ **giữ message lại** và chỉ cho phép callback được gọi khi **tf2 đã có transform phù hợp với timestamp của message.**
+
+**Tóm lại,**` Message Filter` nên được sử dụng khi **xử lý dữ liệu cảm biến,** vì các **message này luôn đi kèm mốc thời gian,** và việc **đồng bộ message với transform là cần thiết để đảm bảo tính chính xác và ổn định của hệ thống.**
+
+Ví dụ:
+
+**Robot** gắn cảm biến `LiDAR` nó gửi dữ liệu về qua topic
+- `sensor_msgs/LaserScan`
+- hoặc `sensor_msgs/PointCloud2`
+```bash
+Frame: laser
+Timestamp: 10.25s
+Dữ liệu: khoảng cách các tia
+```
+**tf2 cung cấp chuỗi transform**
+```bash
+map → odom → base_link → laser
+# Quy trình này bắt buộc phải đồng bộ thời gian với nhau,
+# Lệch một quy trình thì tính toán sẽ bị lỗi vị trí,..  
+```
+Giả sử tại thời điểm nhận tín hiệu từ `LiDAR` tại **timestamped** 10.25s. Nhưng `transform` từ `map -> odom` tại 10.25s **chưa publish kịp**. Nếu gọi callback ngay thì sẽ bị báo :
+```bash
+Lookup would require extrapolation
+```
+Vậy lúc này, ta cùng `message filter` sẽ giúp chúng ta:
+- LaserScan được giữ lại
+- Chờ transform map -> laser đúng thời gian
+- Callback sẽ được gọi chạy an toàn
+> Lưu ý: LiDAR không cung cấp vị trí cho robot của bạn, nó chỉ gửi đi dữ liệu trong frame của nó, tf2 mới là công cụ giúp robot của bạn xác định vị trí của nó và transform sang map để so với map.
