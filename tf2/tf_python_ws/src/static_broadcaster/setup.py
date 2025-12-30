@@ -27,6 +27,7 @@ setup(
             'turtle_tf2_listener = static_broadcaster.turtle_tf2_listener:main',
             'fixed_frame_tf2_broadcaster = static_broadcaster.fixed_frame_tf2_broadcaster:main',
             'dynamic_frame_tf2_broadcaster = static_broadcaster.dynamic_frame_tf2_broadcaster:main',
+            'turtle_tf2_message_broadcaster = static_broadcaster.turtle_tf2_message_broadcaster:main',
         ],
     },
 )
