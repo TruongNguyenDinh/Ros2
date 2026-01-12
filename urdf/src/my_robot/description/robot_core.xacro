@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<xacro:macro
+    name="robot_core"
+    xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- 
+    - Không định nghĩa cho base_link
+      + Vì base_link = gốc tọa độ (root frame) của robot
+        => Chỉ là một frame tham chiếu
+    - Chassis mới là thân robot thật vì
+    - Bánh xe gắn vào base_link:
+      + Bánh xe là frame động
+      + base_link là frame chuẩn cho kinematics
+      + controller (diff_drive_controller) dùng base_link
+    - caster wheel lại gắn vào chassis vì:
+      + caster không tham gia điều khiển
+      + nó chỉ “lê” theo thân
+      + không ảnh hưởng tới odom
+    - Cấu trúc:
+    base_link
+    ├── left_wheel
+    ├── right_wheel
+    └── chassis
+        └── caster_wheel
+    - Hơn nữa trong ROS navigation mặc định cần có:
+      + base_link <-**
+      + odom
+      + map
+   -->
+  <!-- BASE -->
+  <link name="base_link"/>
+  <!-- CHASSIS -->
+  <joint name="chassis_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="chassis"/>
+    <origin xyz="-0.1 0 0"/>
+  </joint>
+
+  <link name="chassis">
+    <visual>
+      <origin xyz="0.15 0 0.075"/>
+      <geometry>
+        <box size="0.3 0.3 0.15"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+    <!-- Định dạng va chạm vật lý cho chassis -->
+    <collision>
+      <origin xyz="0.15 0.0 0.075" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <box size="0.3 0.3 0.15"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- LEFT WHEEL -->
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+    <origin xyz="0 0.175 0" rpy="-${pi/2} 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.05"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <!-- Va chạm vật lý cho bánh trái -->
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.05"/>
+      </geometry>
+    </collision>
+    <!-- Thêm quán tính cho bánh trái -->
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.3"/>
+      <inertia
+        ixx="0.0005" 
+        ixy="0.0" 
+        ixz="0.0" 
+        iyy="0.0005" 
+        iyz="0.0" 
+        izz="0.0003"/>
+    </inertial>
+    
+  </link>
+
+  <!-- RIGHT WHEEL -->
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+    <origin xyz="0 -0.175 0" rpy="${pi/2} 0 0"/>
+    <axis xyz="0 0 -1"/>
+  </joint>
+
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.05"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <!-- Va chạm vật lý cho bánh phải -->
+    <collision>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <cylinder radius="0.04" length="0.05"/>
+      </geometry>
+    </collision>
+    <!-- Thêm quán tính cho bánh phải -->
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <mass value="0.3"/>
+      <inertia
+        ixx="0.0005" 
+        ixy="0.0" 
+        ixz="0.0" 
+        iyy="0.0005" 
+        iyz="0.0" 
+        izz="0.0003"/>
+    </inertial>
+  </link>
+  <!-- CASTER WHEEL -->
+
+  <joint name="caster_wheel_joint" type="fixed">
+      <parent link="chassis"/>
+      <child link="caster_wheel"/>
+      <origin xyz="0.24 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="caster_wheel">
+      <visual>
+          <geometry>
+              <sphere radius="0.05" />
+          </geometry>
+          <material name="black"/>
+      </visual>
+      <!-- Va chạm vật lý cho bánh tự do -->
+      <collision>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+          <sphere radius="0.05"/>
+        </geometry>
+      </collision>
+      <!-- Quán tính cho bánh tự do -->
+      <inertial>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <mass value="0.2"/>
+        <inertia
+          ixx="0.0002"
+          ixy="0.0"
+          ixz="0.0"
+          iyy="0.0002"
+          iyz="0.0"
+          izz="0.0002"/>
+    </inertial>
+  </link>
+
+</xacro:macro>
