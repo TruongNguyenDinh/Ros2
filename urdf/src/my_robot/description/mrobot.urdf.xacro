@@ -3,14 +3,11 @@
 
   <xacro:include filename="materials.xacro"/>
   <xacro:include filename="robot_core.xacro"/>
+  <xacro:include filename="gazebo_control.xacro"/>
+  <xacro:include filename="laser_core.xacro"/>
   <!-- instantiate -->
   <robot_core/>
   <materials/>
-
-<!-- ================= GAZEBO ================= -->
-  <gazebo>
-    <plugin
-      name="gazebo_ros_control"
-      filename="libgazebo_ros2_control.so"/>
-  </gazebo>
+  <diff_drive/>
+  <laser_core/>
 </robot>

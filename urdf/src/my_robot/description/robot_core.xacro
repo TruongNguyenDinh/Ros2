@@ -51,15 +51,22 @@
       </geometry>
     </collision>
   </link>
-
+  <gazebo reference="chassis">
+      <material>Gazebo/White</material>
+  </gazebo>
   <!-- LEFT WHEEL -->
   <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
     <origin xyz="0 0.175 0" rpy="-${pi/2} 0 0"/>
     <axis xyz="0 0 1"/>
+    <dynamics damping="1.0" friction="0.1"/>
   </joint>
-
+  <gazebo reference="left_wheel">
+      <material>Gazebo/Blue</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+  </gazebo>
   <link name="left_wheel">
     <visual>
       <geometry>
@@ -95,8 +102,13 @@
     <child link="right_wheel"/>
     <origin xyz="0 -0.175 0" rpy="${pi/2} 0 0"/>
     <axis xyz="0 0 -1"/>
+    <dynamics damping="1.0" friction="0.1"/>
   </joint>
-
+  <gazebo reference="right_wheel">
+      <material>Gazebo/Blue</material>
+      <mu1 value="1.0"/>
+      <mu2 value="1.0"/>
+  </gazebo>
   <link name="right_wheel">
     <visual>
       <geometry>
@@ -131,11 +143,15 @@
       <child link="caster_wheel"/>
       <origin xyz="0.24 0 0" rpy="0 0 0"/>
   </joint>
-
+  <gazebo reference="caster_wheel">
+      <material>Gazebo/Black</material>
+      <mu1 value="0.001"/>
+      <mu2 value="0.001"/>
+  </gazebo>
   <link name="caster_wheel">
       <visual>
           <geometry>
-              <sphere radius="0.05" />
+              <sphere radius="0.04" />
           </geometry>
           <material name="black"/>
       </visual>
@@ -143,7 +159,7 @@
       <collision>
         <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         <geometry>
-          <sphere radius="0.05"/>
+          <sphere radius="0.04"/>
         </geometry>
       </collision>
       <!-- Quán tính cho bánh tự do -->
