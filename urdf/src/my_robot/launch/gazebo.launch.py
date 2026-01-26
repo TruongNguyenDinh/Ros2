@@ -1,16 +1,18 @@
 import os
 
 from ament_index_python.packages import get_package_share_directory
+from launch.substitutions import LaunchConfiguration
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
+from launch.actions import DeclareLaunchArgument
 
 
 def generate_launch_description():
-
+    use_sim_time = LaunchConfiguration('use_sim_time')
     pkg_path = get_package_share_directory('my_robot')
     xacro_file = os.path.join(pkg_path, 'description', 'mrobot.urdf.xacro')
 
@@ -26,19 +28,28 @@ def generate_launch_description():
                 'launch',
                 'gazebo.launch.py'
             )
-        )
+        ),
+        launch_arguments={
+            'use_sim_time': use_sim_time
+        }.items()
     )
 
+
     return LaunchDescription([
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='true',
+            description='Use simulation time'
+        ),
 
         gazebo,
-
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
             output='screen',
             parameters=[{
-                'robot_description': robot_description
+                'robot_description': robot_description,
+                'use_sim_time': True
             }]
         ),
 
@@ -50,5 +61,5 @@ def generate_launch_description():
                 '-entity', 'my_robot'
             ],
             output='screen'
-        )
+        ),
     ])
