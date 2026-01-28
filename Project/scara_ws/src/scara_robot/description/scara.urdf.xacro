@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="scara_3dof">
+       <xacro:include filename="core.xacro"/> 
+        <xacro:include filename="ros2_control.xacro"/>
+
+       <!-- instantiate -->
+       <scara_core/>
+       <control/>
+</robot>
