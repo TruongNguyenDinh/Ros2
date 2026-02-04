@@ -1,0 +1,11 @@
+# Cài các gói để có thể điều khiển robot
+sudo apt install ros-humble-joint-state-broadcaster 
+sudo apt install ros-humble-joint-trajectory-controller
+# Cài thêm pkg mở rộng là ros2 control
+sudo apt install ros-humble-ros2controlcli
+# Tránh cảnh báo của FastDDS
+sudo apt install ros-humble-rmw-cyclonedds-cpp
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+# Xóa tạm nếu vẫn ăn cảnh báo
+ls /dev/shm | grep fastrtps
+sudo rm -rf /dev/shm/fastrtps*

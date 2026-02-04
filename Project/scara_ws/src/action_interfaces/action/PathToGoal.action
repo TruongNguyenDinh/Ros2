@@ -1,0 +1,11 @@
+# Request
+float64[] path_x
+float64[] path_y
+float64[] path_z
+---
+# Result
+bool is_success
+---
+# Feedback
+float64 progress   
+float64[] current_joint 

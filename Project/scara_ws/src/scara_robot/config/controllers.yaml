@@ -7,6 +7,8 @@ controller_manager:
 
     scara_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
+
+
 scara_arm_controller:
   ros__parameters:
     joints:
@@ -21,5 +23,7 @@ scara_arm_controller:
       - position
       - velocity
 
-    state_publish_rate: 50
-    action_monitor_rate: 20
+# Controller này đang thực hiện 
+# + Lệnh đầu vào là điều khiển vị trí của robot
+# + Lệnh phản hồi cho Rviz2 và controller
+#   + Ví trí và vận tốc

@@ -1,29 +1,27 @@
-<xacro:macro name="control" xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <ros2_control type="system">
+<xacro:macro name="control" xmlns:xacro="http://www.ros.org/wiki/xacro" > 
+  <ros2_control name="ScaraSystem" type="system">
+
     <hardware>
-        <!-- Fake hardware để test RViz -->
-        <plugin>mock_components/GenericSystem</plugin>
+      <plugin>mock_components/GenericSystem</plugin>
     </hardware>
 
     <joint name="joint_1">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
-    </joint>
-
-    <joint name="joint_2">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
     </joint>
 
     <joint name="joint_3">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
     </joint>
 
     <joint name="joint_6">
-        <command_interface name="position"/>
-        <state_interface name="position"/>
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
     </joint>
-    </ros2_control>
-</xacro:macro>
 
+  </ros2_control>
+</xacro:macro>
