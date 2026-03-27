@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<xacro:macro 
+    name="agv_core" 
+    xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Include wheel marco -->
+    <xacro:include filename="wheel_macro.xacro" />
+    <!-- Base link -->
+    <link name="base_link"/>
+
+    <!-- Base footprint -->
+    <joint name="base_footprint_to_base_link_joint" type="fixed">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+    </joint>
+    <link name="base_footprint" />
+
+    <!-- Chassis -->
+    <joint name="chassis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis"/>
+        <origin xyz="0.0 0.0 0.0"/>
+    </joint>
+    <link name="chassis">
+        <visual>
+            <origin xyz="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.3865 0.238 0.0184"/>
+            </geometry>
+            <material name="">
+                <color rgba="1.0 1.0 1.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0"/>
+             <geometry>
+                <box size="0.3865 0.238 0.0184"/>
+            </geometry>
+        </collision>
+    </link>
+    <!-- Wheel -->
+    <xacro:wheel_unit prefix="front_left"  parent="base_link" x_pos="0.15935"  y_pos="0.119"  side_reflect="1"  is_steer="true" />
+    <xacro:wheel_unit prefix="front_right" parent="base_link" x_pos="0.15935"  y_pos="-0.119" side_reflect="-1" is_steer="true" />
+
+    <xacro:wheel_unit prefix="rear_left"   parent="base_link" x_pos="-0.15935" y_pos="0.119"  side_reflect="1"  is_steer="false" />
+    <xacro:wheel_unit prefix="rear_right"  parent="base_link" x_pos="-0.15935" y_pos="-0.119" side_reflect="-1" is_steer="false" />
+    <!-- Laser -->
+    <joint name="base_laser_joint" type="fixed">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="base_laser"/>
+    </joint>
+    <link name="base_laser">
+        <visual name="">
+            <origin xyz="0. 0.0 0.0276"/>
+            <geometry>
+                <cylinder radius="0.06" length="0.0684"/>
+            </geometry>
+            <material name="">
+                <color rgba="1.0 1.0 1.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0276"/>
+            <geometry>
+                <cylinder radius="0.06" length="0.0684"/>
+            </geometry>
+        </collision>
+    </link>
+</xacro:macro>    
